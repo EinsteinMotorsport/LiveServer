@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c9149dd-7c3e-4de3-8203-8a39fb8786ad" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="893590439">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2505" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2505" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1217713132">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="chatserver" value="209" />
+          <entry key="py" value="1880" />
+          <entry key="tornado" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2118" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="chatserver" value="2" />
+          <entry key="py" value="23" />
+          <entry key="tornado" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="27" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testserver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tornado">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AsyncioServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#87#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testserver2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/SimpleWebSocketServer/SimpleWebSocketServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1297">
+              <caret line="581" column="42" lean-forward="true" selection-start-line="581" selection-start-column="42" selection-end-line="581" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#56#1" />
+                <element signature="e#111#218#0" />
+                <element signature="e#229#336#0" />
+                <element signature="e#500#590#0" />
+                <element signature="e#621#719#0" />
+                <element signature="e#767#1050#0" />
+                <element signature="e#807#1050#0" />
+                <element signature="e#1074#1176#0" />
+                <element signature="e#1199#1343#0" />
+                <element signature="e#1619#16558#0" />
+                <element signature="e#1668#2484#0" />
+                <element signature="e#2520#2785#0" />
+                <element signature="e#2520#2774#1" />
+                <element signature="e#2823#2912#0" />
+                <element signature="e#2823#2901#1" />
+                <element signature="e#2946#3045#0" />
+                <element signature="e#2946#3034#1" />
+                <element signature="e#3081#6506#0" />
+                <element signature="e#3326#3419#0" />
+                <element signature="e#3442#3527#0" />
+                <element signature="e#3569#4161#0" />
+                <element signature="e#3720#4067#0" />
+                <element signature="e#3937#4067#0" />
+                <element signature="e#4199#5255#0" />
+                <element signature="e#4239#4850#0" />
+                <element signature="e#4543#4728#0" />
+                <element signature="e#4767#4850#0" />
+                <element signature="e#4882#5255#0" />
+                <element signature="e#5037#5182#0" />
+                <element signature="e#5279#6506#0" />
+                <element signature="e#5319#5952#0" />
+                <element signature="e#5474#5641#0" />
+                <element signature="e#5680#5761#0" />
+                <element signature="e#6133#6506#0" />
+                <element signature="e#6284#6470#0" />
+                <element signature="e#6541#8019#0" />
+                <element signature="e#6621#7687#0" />
+                <element signature="e#6766#7687#0" />
+                <element signature="e#7053#7687#0" />
+                <element signature="e#7174#7583#0" />
+                <element signature="e#7738#8019#0" />
+                <element signature="e#7879#7932#0" />
+                <element signature="e#7961#8019#0" />
+                <element signature="e#8077#8716#0" />
+                <element signature="e#8077#8318#1" />
+                <element signature="e#8341#8668#0" />
+                <element signature="e#8378#8668#0" />
+                <element signature="e#8775#9465#0" />
+                <element signature="e#8869#9446#0" />
+                <element signature="e#8886#9130#0" />
+                <element signature="e#9179#9446#0" />
+                <element signature="e#9323#9405#0" />
+                <element signature="e#9511#10005#0" />
+                <element signature="e#9511#9885#1" />
+                <element signature="e#10046#10286#0" />
+                <element signature="e#10046#10242#1" />
+                <element signature="e#10330#10569#0" />
+                <element signature="e#10330#10524#1" />
+                <element signature="e#10609#10943#0" />
+                <element signature="e#10609#10822#1" />
+                <element signature="e#11001#11704#0" />
+                <element signature="e#11288#11330#0" />
+                <element signature="e#11391#11483#0" />
+                <element signature="e#11510#11602#0" />
+                <element signature="e#11747#16558#0" />
+                <element signature="e#11811#12121#0" />
+                <element signature="e#12167#13357#0" />
+                <element signature="e#12470#13138#0" />
+                <element signature="e#12592#12653#0" />
+                <element signature="e#12687#13138#0" />
+                <element signature="e#12790#12951#0" />
+                <element signature="e#12885#12951#0" />
+                <element signature="e#13042#13138#0" />
+                <element signature="e#13181#13248#0" />
+                <element signature="e#13291#13357#0" />
+                <element signature="e#13407#14257#0" />
+                <element signature="e#13598#14257#0" />
+                <element signature="e#13711#13772#0" />
+                <element signature="e#13806#14257#0" />
+                <element signature="e#13909#14070#0" />
+                <element signature="e#14004#14070#0" />
+                <element signature="e#14161#14257#0" />
+                <element signature="e#14306#15155#0" />
+                <element signature="e#14496#15155#0" />
+                <element signature="e#14609#14670#0" />
+                <element signature="e#14704#15155#0" />
+                <element signature="e#14807#14968#0" />
+                <element signature="e#14902#14968#0" />
+                <element signature="e#15059#15155#0" />
+                <element signature="e#15216#15811#0" />
+                <element signature="e#15393#15811#0" />
+                <element signature="e#15490#15639#0" />
+                <element signature="e#15576#15639#0" />
+                <element signature="e#15721#15811#0" />
+                <element signature="e#15878#16558#0" />
+                <element signature="e#16347#16515#0" />
+                <element signature="e#16424#16515#0" />
+                <element signature="e#17331#17376#0" />
+                <element signature="e#17555#17626#0" />
+                <element signature="e#17716#17872#0" />
+                <element signature="e#19489#19601#0" />
+                <element signature="e#19639#20000#0" />
+                <element signature="e#19683#19747#0" />
+                <element signature="e#19775#20000#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Websockets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatserver">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <marker date="1542736464309" expanded="true" signature="141:147" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/first_test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="J:/Bachlor_Projekt/Test_Frequenzen_lau/Test_Frequenzen/Stethoskop_messung_final_V3/Messung.py" />
+        <option value="$PROJECT_DIR$/Test_Animation.py" />
+        <option value="$PROJECT_DIR$/savedata.py" />
+        <option value="$PROJECT_DIR$/Data.py" />
+        <option value="$PROJECT_DIR$/socketio.py" />
+        <option value="$PROJECT_DIR$/tornado" />
+        <option value="$PROJECT_DIR$/websocket_server.py" />
+        <option value="$PROJECT_DIR$/websocket2.py" />
+        <option value="$PROJECT_DIR$/testserver.py" />
+        <option value="$PROJECT_DIR$/chatserver" />
+        <option value="$PROJECT_DIR$/testserver2.py" />
+        <option value="$PROJECT_DIR$/Websockets.py" />
+        <option value="$PROJECT_DIR$/AsyncioServer.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="1490" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DEMOTelemtry_FirstTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DEMOTelemtry_FirstTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/Telemetrie/Datensatz.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tornado">
+    <configuration name="AsyncioServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DEMOTelemtry_FirstTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AsyncioServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chatserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DEMOTelemtry_FirstTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chatserver" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testserver2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DEMOTelemtry_FirstTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testserver2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tornado" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DEMOTelemtry_FirstTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tornado" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="websocket2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DEMOTelemtry_FirstTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/websocket2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.testserver2" />
+      <item itemvalue="Python.websocket2" />
+      <item itemvalue="Python.chatserver" />
+      <item itemvalue="Python.AsyncioServer" />
+      <item itemvalue="Python.tornado" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tornado" />
+        <item itemvalue="Python.AsyncioServer" />
+        <item itemvalue="Python.chatserver" />
+        <item itemvalue="Python.websocket2" />
+        <item itemvalue="Python.testserver2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c9149dd-7c3e-4de3-8203-8a39fb8786ad" name="Default Changelist" comment="" />
+      <created>1540035695473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540035695473</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1490" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16528925" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.33296824" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39759037" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" weight="0.3340564" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16528925" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.33296824" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39759037" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" weight="0.3340564" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://J:/Bachlor_Projekt/Test_Frequenzen_lau/Test_Frequenzen/Stethoskop_messung_final_V3/Messung.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Animation.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Animation.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testserver2.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/websocket_server.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Websockets.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/SimpleWebSocketServer/SimpleWebSocketServer.py</url>
+          <line>588</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/SimpleWebSocketServer/SimpleWebSocketServer.py</url>
+          <line>585</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/SimpleWebSocketServer/SimpleWebSocketServer.py</url>
+          <line>624</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://J:/Mechatronik_Amine/Bechlor_projekt/Stethoskop_messung_final_V3/Messung.py" />
+    <entry file="file://J:/Bachlor_Projekt/Stethoskop_messung_final_V3/Messung.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/animation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="1771" selection-start-line="1771" selection-end-line="1771" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/matplotlib/cbook/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="226" selection-start-line="226" selection-end-line="226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://J:/Bachlor_Projekt/Test_Frequenzen_lau/Test_Frequenzen/Stethoskop_messung_final_V3/Messung.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1279" selection-start-line="1279" selection-end-line="1279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="352" selection-start-line="352" selection-end-line="352" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="552" selection-start-line="552" selection-end-line="552" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/numpy/fft/fftpack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="369" selection-start-line="369" selection-end-line="369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pyaudio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="603" selection-start-line="603" selection-end-line="603" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Animation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1540938478316" expanded="true" signature="2304:2335" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socketio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="915" selection-start-line="915" selection-end-line="915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Telemetrie/Datensatz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <marker date="1541342517260" expanded="true" signature="75:80" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/websockets/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="786" selection-start-line="786" selection-end-line="786" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/SimpleWebSocketServer/SimpleWebSocketServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1297">
+          <caret line="581" column="42" lean-forward="true" selection-start-line="581" selection-start-column="42" selection-end-line="581" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#56#1" />
+            <element signature="e#111#218#0" />
+            <element signature="e#229#336#0" />
+            <element signature="e#500#590#0" />
+            <element signature="e#621#719#0" />
+            <element signature="e#767#1050#0" />
+            <element signature="e#807#1050#0" />
+            <element signature="e#1074#1176#0" />
+            <element signature="e#1199#1343#0" />
+            <element signature="e#1619#16558#0" />
+            <element signature="e#1668#2484#0" />
+            <element signature="e#2520#2785#0" />
+            <element signature="e#2520#2774#1" />
+            <element signature="e#2823#2912#0" />
+            <element signature="e#2823#2901#1" />
+            <element signature="e#2946#3045#0" />
+            <element signature="e#2946#3034#1" />
+            <element signature="e#3081#6506#0" />
+            <element signature="e#3326#3419#0" />
+            <element signature="e#3442#3527#0" />
+            <element signature="e#3569#4161#0" />
+            <element signature="e#3720#4067#0" />
+            <element signature="e#3937#4067#0" />
+            <element signature="e#4199#5255#0" />
+            <element signature="e#4239#4850#0" />
+            <element signature="e#4543#4728#0" />
+            <element signature="e#4767#4850#0" />
+            <element signature="e#4882#5255#0" />
+            <element signature="e#5037#5182#0" />
+            <element signature="e#5279#6506#0" />
+            <element signature="e#5319#5952#0" />
+            <element signature="e#5474#5641#0" />
+            <element signature="e#5680#5761#0" />
+            <element signature="e#6133#6506#0" />
+            <element signature="e#6284#6470#0" />
+            <element signature="e#6541#8019#0" />
+            <element signature="e#6621#7687#0" />
+            <element signature="e#6766#7687#0" />
+            <element signature="e#7053#7687#0" />
+            <element signature="e#7174#7583#0" />
+            <element signature="e#7738#8019#0" />
+            <element signature="e#7879#7932#0" />
+            <element signature="e#7961#8019#0" />
+            <element signature="e#8077#8716#0" />
+            <element signature="e#8077#8318#1" />
+            <element signature="e#8341#8668#0" />
+            <element signature="e#8378#8668#0" />
+            <element signature="e#8775#9465#0" />
+            <element signature="e#8869#9446#0" />
+            <element signature="e#8886#9130#0" />
+            <element signature="e#9179#9446#0" />
+            <element signature="e#9323#9405#0" />
+            <element signature="e#9511#10005#0" />
+            <element signature="e#9511#9885#1" />
+            <element signature="e#10046#10286#0" />
+            <element signature="e#10046#10242#1" />
+            <element signature="e#10330#10569#0" />
+            <element signature="e#10330#10524#1" />
+            <element signature="e#10609#10943#0" />
+            <element signature="e#10609#10822#1" />
+            <element signature="e#11001#11704#0" />
+            <element signature="e#11288#11330#0" />
+            <element signature="e#11391#11483#0" />
+            <element signature="e#11510#11602#0" />
+            <element signature="e#11747#16558#0" />
+            <element signature="e#11811#12121#0" />
+            <element signature="e#12167#13357#0" />
+            <element signature="e#12470#13138#0" />
+            <element signature="e#12592#12653#0" />
+            <element signature="e#12687#13138#0" />
+            <element signature="e#12790#12951#0" />
+            <element signature="e#12885#12951#0" />
+            <element signature="e#13042#13138#0" />
+            <element signature="e#13181#13248#0" />
+            <element signature="e#13291#13357#0" />
+            <element signature="e#13407#14257#0" />
+            <element signature="e#13598#14257#0" />
+            <element signature="e#13711#13772#0" />
+            <element signature="e#13806#14257#0" />
+            <element signature="e#13909#14070#0" />
+            <element signature="e#14004#14070#0" />
+            <element signature="e#14161#14257#0" />
+            <element signature="e#14306#15155#0" />
+            <element signature="e#14496#15155#0" />
+            <element signature="e#14609#14670#0" />
+            <element signature="e#14704#15155#0" />
+            <element signature="e#14807#14968#0" />
+            <element signature="e#14902#14968#0" />
+            <element signature="e#15059#15155#0" />
+            <element signature="e#15216#15811#0" />
+            <element signature="e#15393#15811#0" />
+            <element signature="e#15490#15639#0" />
+            <element signature="e#15576#15639#0" />
+            <element signature="e#15721#15811#0" />
+            <element signature="e#15878#16558#0" />
+            <element signature="e#16347#16515#0" />
+            <element signature="e#16424#16515#0" />
+            <element signature="e#17331#17376#0" />
+            <element signature="e#17555#17626#0" />
+            <element signature="e#17716#17872#0" />
+            <element signature="e#19489#19601#0" />
+            <element signature="e#19639#20000#0" />
+            <element signature="e#19683#19747#0" />
+            <element signature="e#19775#20000#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/asyncio/events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="661" selection-start-line="661" selection-end-line="661" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Websockets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testserver2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatserver">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <marker date="1542736464309" expanded="true" signature="141:147" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsyncioServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#87#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/savedata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornado">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
