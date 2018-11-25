@@ -1,0 +1,30 @@
+from SimpleWebSocketServer import SimpleWebSocketServer, WebSocket
+
+clients = []
+
+
+class SimpleChat(WebSocket):
+
+    def handleMessage(self):
+
+        for client in clients:
+            if client != self:
+                  client.sendMessage(self.address[0] + u' - ' + self.data)
+
+    def handleConnected(self):
+
+        print(self.address, 'connected')
+
+        clients.append(self)
+
+        clients[0].sendMessage('60')
+
+    def handleClose(self):
+        clients.remove(self)
+        print(self.address, 'closed')
+
+while True:
+
+    server = SimpleWebSocketServer('', 7777, SimpleChat)
+
+    server.serveforever()
