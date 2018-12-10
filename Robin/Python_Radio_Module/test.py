@@ -55,7 +55,7 @@ if sender.isOpen():
 # testLibrary.getConfirmations(sender)
 
 # ----------The speed Test----------
-testLibrary.speedTest(sender, 50, 3, 10)  # def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
+testLibrary.speedTest(sender, 10, 3, 1)  # def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
 
 # ----------The ping test----------
 # print("PING: ", testLibrary.pingTest(sender, receiver))  # does a ping test with one message and returns milliseconds

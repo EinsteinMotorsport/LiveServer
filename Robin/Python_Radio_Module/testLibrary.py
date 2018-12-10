@@ -44,7 +44,7 @@ def getConfirmations(sender):
                 else:
                     print("ERROR, could not receive full confirmation!")
                     return -1
-        print("confirmationCounter: ", confirmationCounter)
+        # print("confirmationCounter: ", confirmationCounter)
         # print("Rest of line should be []: ", line)
     return confirmationCounter
 
@@ -125,20 +125,25 @@ def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
     # If it doesn't get "numberOfValidations" correct transmits then it goes further back
     # Then it calculates the bits/s from the size of the payload
     # and the time needed
+    # the size of the message has to be changed by modifying the code down below (the string in "generatePackage")
 
-    interval = 300
+    interval = 60
     dataSendCorrectly = True
     notEnoughValidations = True
     endPointReached = False
     counterSendFailed = 0
     counterValidations = 0
     testNotDone = True
+    starttime = 0
+    endtime = 0
 
     while notEnoughValidations:  # Needs this much correctly send data to be fine
         #  print("dataSendCorrectly :", dataSendCorrectly, "  interval: ",
         #        interval, "  counterValidations: ", counterValidations)
         sender.reset_input_buffer()
         sender.flushOutput()
+        confirmationcounter = 0
+        starttime = int(round(time.time() * 1000))
         for x in range(amountOfData):  # Inner loop for every iteration that is used many times
             # sendData(sender, generatePackageFromHex('{0:02X}'.format(x))) # counting up from 0 to "amountOfData"
             sendData(sender, generatePackageFromString("0011223344556677889900112233445566778899"
@@ -148,16 +153,18 @@ def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
                                                        "0011223344556677889900112233445566778899"
                                                        "0011223344556677889900112233445566778899"
                                                        "0011223344556677"))  # Are 128 bytes (max)
-        time.sleep(interval / 1000)
-        confirmationAnswer = getConfirmations(sender)
+            time.sleep(interval / 1000)
+            if getConfirmations(sender) == 1:
+                confirmationcounter += 1
+        endtime = int(round(time.time() * 1000))
+        confirmationAnswer = confirmationcounter
+        print(interval / 1000)
         if confirmationAnswer == amountOfData:
             dataSendCorrectly = True
         else:
             dataSendCorrectly = False
             # if confirmationAnswer == -1:  # confirmation error
             # break
-        time.sleep(interval / 1000)
-        print(interval / 1000)
 
         if dataSendCorrectly:
             if endPointReached:  # Increase CounterValidations
@@ -179,5 +186,6 @@ def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
         print("Failed: ", counterSendFailed)
 
     #  calculating and returning the efficiency
-    efficiency = 1000 / interval * amountOfData
-    print("Send: ", efficiency, " Messages per second")
+    # efficiency = 1000 / interval * amountOfData * 128
+    efficiency = 1000 / (endtime - starttime) * amountOfData * 128
+    print("Reached: ", efficiency, " bytes per second without overhead")
