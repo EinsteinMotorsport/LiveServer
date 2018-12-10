@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c063e89-3c9c-4e91-8ee3-4a48b4298c9d" name="Default Changelist" comment="" />
+    <list default="true" id="8c063e89-3c9c-4e91-8ee3-4a48b4298c9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testLibrary.py" beforeDir="false" afterPath="$PROJECT_DIR$/testLibrary.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +51,25 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1086" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1086" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -72,22 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testLibrary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="402">
+              <caret line="154" column="13" lean-forward="true" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <marker date="1542830842229" expanded="true" signature="55:60" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="199:204" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="199:431" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="460:461" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="460:465" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="2801:2804" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="3857:4835" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="5534:5535" ph="..." />
-                <marker date="1542830842229" expanded="true" signature="5534:5539" ph="..." />
+                <marker date="1544402262394" expanded="true" signature="110:115" ph="..." />
+                <marker date="1544402262394" expanded="true" signature="357:362" ph="..." />
+                <marker date="1544402262394" expanded="true" signature="357:735" ph="..." />
+                <marker date="1544402262394" expanded="true" signature="1791:1850" ph="..." />
+                <marker date="1544402262394" expanded="true" signature="3059:4231" ph="..." />
+                <marker date="1544402262394" expanded="true" signature="4853:4854" ph="..." />
+                <marker date="1544402262394" expanded="true" signature="4853:4858" ph="..." />
               </folding>
             </state>
           </provider>
@@ -140,16 +151,16 @@
         <option value="$PROJECT_DIR$/Init.py" />
         <option value="$PROJECT_DIR$/SenderFunctions.py" />
         <option value="$PROJECT_DIR$/InitSerialPorts.py" />
-        <option value="$PROJECT_DIR$/testLibrary.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/testLibrary.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1552" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,14 +275,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2247191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27659574" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21691974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39716312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -288,58 +300,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testLibrary.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testLibrary.py</url>
-          <line>167</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/radiomodule.py" />
     <entry file="file://$PROJECT_DIR$/InitSerialPorts.py" />
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/serial/serialutil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4454">
           <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testLibrary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1542830842229" expanded="true" signature="55:60" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="199:204" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="199:431" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="460:461" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="460:465" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="2801:2804" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="3857:4835" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="5534:5535" ph="..." />
-            <marker date="1542830842229" expanded="true" signature="5534:5539" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -361,6 +328,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2958">
           <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testLibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="154" column="13" lean-forward="true" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+          <folding>
+            <marker date="1544402262394" expanded="true" signature="110:115" ph="..." />
+            <marker date="1544402262394" expanded="true" signature="357:362" ph="..." />
+            <marker date="1544402262394" expanded="true" signature="357:735" ph="..." />
+            <marker date="1544402262394" expanded="true" signature="1791:1850" ph="..." />
+            <marker date="1544402262394" expanded="true" signature="3059:4231" ph="..." />
+            <marker date="1544402262394" expanded="true" signature="4853:4854" ph="..." />
+            <marker date="1544402262394" expanded="true" signature="4853:4858" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

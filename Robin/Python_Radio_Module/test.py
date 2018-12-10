@@ -29,17 +29,25 @@ if sender.isOpen():
 
 # ----------Just the "Hello World!" examples for "generatePackageFromString"----------
 # testLibrary.sendData(sender, "02000C48656C6C6F20576F726C64210F")  # sends "Hello World!"
-for x in range(20):
-    testLibrary.sendData(sender, testLibrary.generatePackageFromString("0011223344556677889900112233445566778899"
-                                                                       "0011223344556677889900112233445566778899"
-                                                                       "0011223344556677889900112233445566778899"
-                                                                       "0011223344556677889900112233445566778899"
-                                                                       "0011223344556677889900112233445566778899"
-                                                                       "0011223344556677889900112233445566778899"
-                                                                       "0011223344556677"))  # Are 128 bytes (max)
-time.sleep(3)
-#testLibrary.getSingleConfirmation(sender)
-testLibrary.getConfirmations(sender)
+# testing = int(round(time.time() * 1000))
+# counter = 0
+# for x in range(100):
+# testLibrary.sendData(sender, testLibrary.generatePackageFromString("0011223344556677889900112233445566778899"
+#                                                                        "0011223344556677889900112233445566778899"
+#                                                                        "0011223344556677889900112233445566778899"
+#                                                                        "0011223344556677889900112233445566778899"
+#                                                                        "0011223344556677889900112233445566778899"
+#                                                                        "0011223344556677889900112233445566778899"
+#                                                                        "0011223344556677"))  # Are 128 bytes (max)
+#     time.sleep(0.0241)
+#     if testLibrary.getConfirmations(sender) == 1:
+#         counter += 1
+# testing -= int(round(time.time() * 1000))
+# print("Time Delta in ms: ", testing*-1, "   Number of Packages received: ", counter)
+
+# time.sleep(1)
+# testLibrary.getSingleConfirmation(sender)
+
 
 # ----------Sends the int via "generatePackageFromHex" and checks for confirmation----------
 # testLibrary.sendData(sender, testLibrary.generatePackageFromHex('{0:02X}'.format(324375324987509759375347598)))
@@ -47,7 +55,7 @@ testLibrary.getConfirmations(sender)
 # testLibrary.getConfirmations(sender)
 
 # ----------The speed Test----------
-# testLibrary.speedTest(sender, 50, 3, 10)  # def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
+testLibrary.speedTest(sender, 50, 3, 10)  # def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
 
 # ----------The ping test----------
 # print("PING: ", testLibrary.pingTest(sender, receiver))  # does a ping test with one message and returns milliseconds

@@ -1,14 +1,15 @@
 import time
-import serial
 
 
+# ----------Sends the data it is given to the given sender----------
 def sendData(sender, data):
     sender.write(bytes.fromhex(data))
-    print("SEND")
+    # print("SEND")
     # print(data)
     # print(bytes.fromhex(data))
 
 
+# ----------Only tries to get a single confirmation message and returns true if it got one----------
 def getSingleConfirmation(sender):
     line = []
     while True:
@@ -19,49 +20,19 @@ def getSingleConfirmation(sender):
                 return True
 
 
+# ----------gets all confirmation messages it can find,----------
+# ----------counts them and return the amount of confirmations it got----------
 def getConfirmations(sender):
-    # line = []
-    # getout = True
-    # stopTime = int(round(time.time() * 1000)) + 1000
-    # while getout:
-    #     for c in sender.read():
-    #         line.append(c)
-    #         if c == 67:
-    #             # print("If [2, 64, 1, 0, 67] == ", line, " then everything went right!")
-    #             return True
-    #     if int(round(time.time() * 1000)) == stopTime:  # Checks if this took longer than 100 milliseconds
-    #         return False
-
-    # line = []
-    # confirmationCounter = 0
-    # if sender.in_waiting > 0:  # if incoming bytes are waiting to be read from the serial input buffer
-    #     print("SENDER IN WAITING: ", sender.in_waiting)
-    #     for c in sender.read(sender.in_waiting):
-    #         #  print(c)
-    #         line.append(c)
-    #         if c == 67:
-    #             #  print("If [2, 64, 1, 0, 67] == ", line, " then everything went right!")
-    #             print(line)
-    #             line.pop(len(line) - 1)
-    #             line.pop(len(line) - 1)
-    #             line.pop(len(line) - 1)
-    #             line.pop(len(line) - 1)
-    #             line.pop(len(line) - 1)
-    #             confirmationCounter = confirmationCounter + 1
-    #             #  print(confirmationCounter)
-    #     print(confirmationCounter)
-    #     return confirmationCounter
-
     line = []
     confirmationCounter = 0
-    print("SENDER IN WAITING: ", sender.in_waiting)
+    # print("SENDER IN WAITING: ", sender.in_waiting)
     while sender.in_waiting > 0:  # if incoming bytes are waiting to be read from the serial input buffer
         for c in sender.read(sender.in_waiting):
             #  print(c)
             line.append(c)
             if c == 67:
                 #  print("If [2, 64, 1, 0, 67] == ", line, " then everything went right!")
-                print(line)
+                # print(line)
                 if len(line) == 5:
                     line.pop(0)
                     line.pop(0)
@@ -74,10 +45,11 @@ def getConfirmations(sender):
                     print("ERROR, could not receive full confirmation!")
                     return -1
         print("confirmationCounter: ", confirmationCounter)
-        print("Rest of line should be []: ", line)
+        # print("Rest of line should be []: ", line)
     return confirmationCounter
 
 
+# ----------generates a Package from a String----------
 def generatePackageFromString(payload):
     # Needs start signal, command, length, payload and checksum
     # Standard start signal that can be changed. If you change it maybe you have to change the rest # of the format too
@@ -102,6 +74,8 @@ def generatePackageFromString(payload):
     return data
 
 
+# ----------generates a package from Hex numbers----------
+# ----------e.g. generatePackageFromHex('{0:02X}'.format(324375324987509759375347598))----------
 def generatePackageFromHex(payload):
     # Needs start signal, command, length, payload and checksum
     # Standard start signal that can be changed. If you change it maybe you have to change the rest # of the format too
@@ -126,8 +100,9 @@ def generatePackageFromHex(payload):
     return data
 
 
+# ----------performs a simple ping test to get the delay between the sending of the message----------
+# ----------and receiving of the confirmation message devided by 2 and returns it----------
 def pingTest(sender, receiver):
-    # Sends one Package and counts the milliseconds until the ACK comes back
     startTime = int(round(time.time() * 1000))
     sendData(sender, generatePackageFromString("48656C6C6F20576F726C642121"))  # sends "Hello World!"
     # line = []
@@ -165,7 +140,14 @@ def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
         sender.reset_input_buffer()
         sender.flushOutput()
         for x in range(amountOfData):  # Inner loop for every iteration that is used many times
-            sendData(sender, generatePackageFromHex('{0:02X}'.format(x)))
+            # sendData(sender, generatePackageFromHex('{0:02X}'.format(x))) # counting up from 0 to "amountOfData"
+            sendData(sender, generatePackageFromString("0011223344556677889900112233445566778899"
+                                                       "0011223344556677889900112233445566778899"
+                                                       "0011223344556677889900112233445566778899"
+                                                       "0011223344556677889900112233445566778899"
+                                                       "0011223344556677889900112233445566778899"
+                                                       "0011223344556677889900112233445566778899"
+                                                       "0011223344556677"))  # Are 128 bytes (max)
         time.sleep(interval / 1000)
         confirmationAnswer = getConfirmations(sender)
         if confirmationAnswer == amountOfData:
