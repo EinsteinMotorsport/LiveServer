@@ -47,9 +47,7 @@ class WSHandler(tornado.websocket.WebSocketHandler):
         list = self.InputData(byte)
 
         for i in list:
-            del listwert[:]
-            del Id[:]
-            del Leinheit[:]
+
             listwert.append(i)
             if Id == 0:
                 einheit = "Km/h²"
