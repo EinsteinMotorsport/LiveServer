@@ -10,7 +10,7 @@ def sendData(sender, data):
 
 
 # ----------Only tries to get a single confirmation message and returns true if it got one----------
-def getSingleConfirmation(sender):
+def getSingleConfirmationWithoutAdress(sender):
     line = []
     while True:
         for c in sender.read():
@@ -22,7 +22,7 @@ def getSingleConfirmation(sender):
 
 # ----------gets all confirmation messages it can find,----------
 # ----------counts them and return the amount of confirmations it got----------
-def getConfirmations(sender):
+def getConfirmationsWithoutAdress(sender):
     line = []
     confirmationCounter = 0
     # print("SENDER IN WAITING: ", sender.in_waiting)
@@ -30,9 +30,17 @@ def getConfirmations(sender):
         for c in sender.read(sender.in_waiting):
             #  print(c)
             line.append(c)
+            if c == 66:
+                print("No ACK received!!")
+                print(line)
+                if len(line) == 5:
+                    line.pop(0)
+                    line.pop(0)
+                    line.pop(0)
+                    line.pop(0)
+                    line.pop(0)
             if c == 67:
                 #  print("If [2, 64, 1, 0, 67] == ", line, " then everything went right!")
-                # print(line)
                 if len(line) == 5:
                     line.pop(0)
                     line.pop(0)
@@ -50,7 +58,7 @@ def getConfirmations(sender):
 
 
 # ----------generates a Package from a String----------
-def generatePackageFromString(payload):
+def generatePackageFromStringWithoutAdress(payload):
     # Needs start signal, command, length, payload and checksum
     # Standard start signal that can be changed. If you change it maybe you have to change the rest # of the format too
     startSignal = "02"
@@ -75,8 +83,8 @@ def generatePackageFromString(payload):
 
 
 # ----------generates a package from Hex numbers----------
-# ----------e.g. generatePackageFromHex('{0:02X}'.format(324375324987509759375347598))----------
-def generatePackageFromHex(payload):
+# ----------e.g. generatePackageFromHexWithoutAdress('{0:02X}'.format(324375324987509759375347598))----------
+def generatePackageFromHexWithoutAdress(payload):
     # Needs start signal, command, length, payload and checksum
     # Standard start signal that can be changed. If you change it maybe you have to change the rest # of the format too
     startSignal = "02"
@@ -102,9 +110,9 @@ def generatePackageFromHex(payload):
 
 # ----------performs a simple ping test to get the delay between the sending of the message----------
 # ----------and receiving of the confirmation message devided by 2 and returns it----------
-def pingTest(sender, receiver):
+def pingTestWithoutAdress(sender, receiver):
     startTime = int(round(time.time() * 1000))
-    sendData(sender, generatePackageFromString("48656C6C6F20576F726C642121"))  # sends "Hello World!"
+    sendData(sender, generatePackageFromStringWithoutAdress("48656C6C6F20576F726C642121"))  # sends "Hello World!"
     # line = []
     while True:
         for c in sender.read():
@@ -118,7 +126,7 @@ def pingTest(sender, receiver):
                 return delta
 
 
-def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
+def speedTestWithoutAdress(sender, amountOfData, numberOfValidations, deltaIntervals):
     # Sends as many packages to the sender, as defined in "amountOfData".
     # Lowers the interval by "deltaIntervals" between the data points until the data isn't received correctly anymore.
     # It goes back to a bigger interval and needs "numberOfValidations" correct transmits
@@ -145,8 +153,8 @@ def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
         confirmationcounter = 0
         starttime = int(round(time.time() * 1000))
         for x in range(amountOfData):  # Inner loop for every iteration that is used many times
-            # sendData(sender, generatePackageFromHex('{0:02X}'.format(x))) # counting up from 0 to "amountOfData"
-            sendData(sender, generatePackageFromString("0011223344556677889900112233445566778899"
+            # sendData(sender, generatePackageFromHexWithoutAdress('{0:02X}'.format(x))) # counting up from 0 to "amountOfData"
+            sendData(sender, generatePackageFromStringWithoutAdress("0011223344556677889900112233445566778899"
                                                        "0011223344556677889900112233445566778899"
                                                        "0011223344556677889900112233445566778899"
                                                        "0011223344556677889900112233445566778899"
@@ -154,7 +162,7 @@ def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
                                                        "0011223344556677889900112233445566778899"
                                                        "0011223344556677"))  # Are 128 bytes (max)
             time.sleep(interval / 1000)
-            if getConfirmations(sender) == 1:
+            if getConfirmationsWithoutAdress(sender) == 1:
                 confirmationcounter += 1
         endtime = int(round(time.time() * 1000))
         confirmationAnswer = confirmationcounter

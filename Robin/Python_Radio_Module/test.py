@@ -27,12 +27,12 @@ if sender.isOpen():
 #     receiver.open()
 #     receiver.isOpen()
 
-# ----------Just the "Hello World!" examples for "generatePackageFromString"----------
+# ----------Just the "Hello World!" examples for "generatePackageFromStringWithoutAdress"----------
 # testLibrary.sendData(sender, "02000C48656C6C6F20576F726C64210F")  # sends "Hello World!"
 # testing = int(round(time.time() * 1000))
 # counter = 0
 # for x in range(100):
-# testLibrary.sendData(sender, testLibrary.generatePackageFromString("0011223344556677889900112233445566778899"
+# testLibrary.sendData(sender, testLibrary.generatePackageFromStringWithoutAdress("0011223344556677889900112233445566778899"
 #                                                                        "0011223344556677889900112233445566778899"
 #                                                                        "0011223344556677889900112233445566778899"
 #                                                                        "0011223344556677889900112233445566778899"
@@ -40,25 +40,25 @@ if sender.isOpen():
 #                                                                        "0011223344556677889900112233445566778899"
 #                                                                        "0011223344556677"))  # Are 128 bytes (max)
 #     time.sleep(0.0241)
-#     if testLibrary.getConfirmations(sender) == 1:
+#     if testLibrary.getConfirmationsWithoutAdress(sender) == 1:
 #         counter += 1
 # testing -= int(round(time.time() * 1000))
 # print("Time Delta in ms: ", testing*-1, "   Number of Packages received: ", counter)
 
 # time.sleep(1)
-# testLibrary.getSingleConfirmation(sender)
+# testLibrary.getSingleConfirmationWithoutAdress(sender)
 
 
-# ----------Sends the int via "generatePackageFromHex" and checks for confirmation----------
-# testLibrary.sendData(sender, testLibrary.generatePackageFromHex('{0:02X}'.format(324375324987509759375347598)))
+# ----------Sends the int via "generatePackageFromHexWithoutAdress" and checks for confirmation----------
+# testLibrary.sendData(sender, testLibrary.generatePackageFromHexWithoutAdress('{0:02X}'.format(324375324987509759375347598)))
 # time.sleep(0.1)
-# testLibrary.getConfirmations(sender)
+# testLibrary.getConfirmationsWithoutAdress(sender)
 
 # ----------The speed Test----------
-testLibrary.speedTest(sender, 10, 3, 1)  # def speedTest(sender, amountOfData, numberOfValidations, deltaIntervals):
+testLibrary.speedTestWithoutAdress(sender, 10, 3, 1)  # def speedTestWithoutAdress(sender, amountOfData, numberOfValidations, deltaIntervals):
 
 # ----------The ping test----------
-# print("PING: ", testLibrary.pingTest(sender, receiver))  # does a ping test with one message and returns milliseconds
+# print("PING: ", testLibrary.pingTestWithoutAdress(sender, receiver))  # does a ping test with one message and returns milliseconds
 
 # time.sleep(1)
 
