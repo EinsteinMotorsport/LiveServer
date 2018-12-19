@@ -55,10 +55,37 @@ if sender.isOpen():
 # testLibrary.getConfirmationsWithoutAdress(sender)
 
 # ----------The speed Test----------
-testLibrary.speedTestWithoutAdress(sender, 10, 3, 1)  # def speedTestWithoutAdress(sender, amountOfData, numberOfValidations, deltaIntervals):
+# testLibrary.speedTestWithoutAdress(sender, 10, 3, 1)  # def speedTestWithoutAdress(sender, amountOfData, numberOfValidations, deltaIntervals):
 
 # ----------The ping test----------
 # print("PING: ", testLibrary.pingTestWithoutAdress(sender, receiver))  # does a ping test with one message and returns milliseconds
+
+
+# ----------Configure the MAC_SourceAddr to (Sender 07 Receiver 02)----------
+# testLibrary.sendData(receiver, testLibrary.generate___MAC_SourceAddr___FromHex('{0:02X}'.format(2)))
+# testLibrary.getSingleInputBufferAnswer(receiver)
+
+# ----------Configure the Address mode with CMD_SET_REQ to 0x01----------
+# testLibrary.sendData(receiver, testLibrary.generate___CMD_SET_REQ___FromHex('{0:02X}'.format(1)))
+# testLibrary.getSingleInputBufferAnswer(receiver)
+
+
+# ----------Ask AddressMode from module with CMD_GET_REQ    # 04 for address mode, 0B for address, 03 for RF Channel, 0D for sniffer----------
+# testLibrary.sendData(sender, testLibrary.generate___CMD_GET_REQ___("04"))
+# testLibrary.getSingleInputBufferAnswer(sender)
+
+# ----------generatePackageFromHexWithAdressmode1 send one package and see the answer ----------
+testLibrary.sendData(sender, testLibrary.generatePackageFromHexWithAdressmode1('{0:02X}'.format(5)))
+testLibrary.getSingleConfirmationWithAdressmode1(sender)
+
+
+# ----------generate___RADIO_DefaultRfChannel___ to set the radio channel ----------
+# testLibrary.sendData(receiver, testLibrary.generate___RADIO_DefaultRfChannel___())
+# testLibrary.getSingleConfirmationWithAdressmode1(receiver)
+
+# ----------Set number of Retry with generate___CMD_SET_REQ___----------
+# testLibrary.sendData(receiver, testLibrary.generate___CMD_SET_REQ___())
+# testLibrary.getSingleInputBufferAnswer(receiver)
 
 # time.sleep(1)
 

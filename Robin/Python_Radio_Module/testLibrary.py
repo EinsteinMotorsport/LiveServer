@@ -20,6 +20,17 @@ def getSingleConfirmationWithoutAdress(sender):
                 return True
 
 
+# ----------Only tries to get a single confirmation message and returns true if it got one----------
+def getSingleConfirmationWithAdressmode1(sender):
+    line = []
+    while True:
+        for c in sender.read():
+            line.append(c)
+            if line.__len__() == 5:
+                print("If [2, 64, 1, 0, 67] == ", line, " then everything went right!")
+                return True
+
+
 # ----------gets all confirmation messages it can find,----------
 # ----------counts them and return the amount of confirmations it got----------
 def getConfirmationsWithoutAdress(sender):
@@ -106,6 +117,35 @@ def generatePackageFromHexWithoutAdress(payload):
         i += 2
     data += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
     return data
+
+
+# ----------generates a package from Hex numbers----------
+# ----------e.g. generatePackageFromHexWithAdressmode1('{0:02X}'.format(324375324987509759375347598))----------
+def generatePackageFromHexWithAdressmode1(payload):
+    # Needs start signal, command, length, payload and checksum
+    startSignal = "02"
+    command = "01"
+    data = ""
+    data += startSignal
+    data += command
+    if len(payload) % 2 != 0:  # Checks if the payload has an odd size and adds an leading zero
+        frontNull = "0"
+        payload = frontNull + payload
+    length = '{0:02X}'.format((len(payload) // 2)+2)  # Int to String without the 0x up front and +2 for AddressMode 1
+    data += length
+    channel = "6C"
+    data += channel
+    destinationAdress = "02"
+    data += destinationAdress
+    data += payload
+    i = 0
+    checksum = 0
+    while i < len(data):  # going through the bytes of the string with a XOR
+        checksum ^= int(data[i] + data[i + 1], 16)
+        i += 2
+    data += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
+    return data
+
 
 
 # ----------performs a simple ping test to get the delay between the sending of the message----------
@@ -197,3 +237,122 @@ def speedTestWithoutAdress(sender, amountOfData, numberOfValidations, deltaInter
     # efficiency = 1000 / interval * amountOfData * 128
     efficiency = 1000 / (endtime - starttime) * amountOfData * 128
     print("Reached: ", efficiency, " bytes per second without overhead")
+
+
+def generate___MAC_SourceAddr___FromHex(address):
+    # With this function you can configure the MAC_SourceAddr parameter with LSB 0x01
+    # example in the manual under 8.4.10.1
+    message = ""
+    startSignal = "02"
+    command = "09"
+    length = "02"
+    settingsIndex = "0B"
+    message += startSignal
+    message += command
+    message += length
+    message += settingsIndex
+    message += address
+    i = 0
+    checksum = 0
+    while i < len(message):  # going through the bytes of the string with a XOR
+        checksum ^= int(message[i] + message[i + 1], 16)
+        i += 2
+    message += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
+    print("Message: ", message)
+    return message
+
+def generate___CMD_SET_REQ___FromHex(addressmode):
+    # example in the manual under 8.4.5.1
+    message = ""
+    startSignal = "02"
+    command = "09"
+    length = "02"
+    settingsIndex = "04"
+    message += startSignal
+    message += command
+    message += length
+    message += settingsIndex
+    message += addressmode
+    i = 0
+    checksum = 0
+    while i < len(message):  # going through the bytes of the string with a XOR
+        checksum ^= int(message[i] + message[i + 1], 16)
+        i += 2
+    message += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
+    print("Message: ", message)
+    return message
+
+def generate___CMD_GET_REQ___(settingsIndex):
+    # example in the manual under 8.4.5.2
+    message = ""
+    startSignal = "02"
+    command = "0A"
+    length = "01"
+    message += startSignal
+    message += command
+    message += length
+    message += settingsIndex
+    i = 0
+    checksum = 0
+    while i < len(message):  # going through the bytes of the string with a XOR
+        checksum ^= int(message[i] + message[i + 1], 16)
+        i += 2
+    message += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
+    print("Message: ", message)
+    return message
+
+
+def generate___RADIO_DefaultRfChannel___():
+    # example in the manual under 7.4.2
+    message = ""
+    startSignal = "02"
+    command = "06"
+    length = "01"
+    channel = "6C"
+    message += startSignal
+    message += command
+    message += length
+    message += channel
+    i = 0
+    checksum = 0
+    while i < len(message):  # going through the bytes of the string with a XOR
+        checksum ^= int(message[i] + message[i + 1], 16)
+        i += 2
+    message += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
+    print("Message: ", message)
+    return message
+
+
+def generate___CMD_SET_REQ___():
+    # example in the manual under 8.4.6.1
+    message = ""
+    startSignal = "02"
+    command = "09"
+    length = "02"
+    settingsIndex = "06"  # 06 for numberofRetrys, 0D for sniffermode
+    numRetrys = "01"
+    message += startSignal
+    message += command
+    message += length
+    message += settingsIndex
+    message += numRetrys
+    i = 0
+    checksum = 0
+    while i < len(message):  # going through the bytes of the string with a XOR
+        checksum ^= int(message[i] + message[i + 1], 16)
+        i += 2
+    message += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
+    print("Message: ", message)
+    return message
+
+
+# ----------Only tries to get a single confirmation message and returns true if it got one----------
+def getSingleInputBufferAnswer(sender):
+    line = []
+    while True:
+        for c in sender.read():
+            line.append(c)
+            print(c)
+            if line.__len__() == 7:
+                print("Answer: ", line, " (has to be [2, 73, 1, 0, 74])")
+                return True
