@@ -231,10 +231,22 @@ def get_single_input_buffer_answer_5(sender):
     while True:
         for c in sender.read():
             line.append(c)
-            print(c)
+            # print(c)
             if line.__len__() == 5:
-                print("Answer: ", line)
-                return True
+                # print("Answer: ", line)
+                return line
+
+
+# ----------Only tries to get a single confirmation message and returns true if it got one----------
+def get_single_input_buffer_answer_6(sender):
+    line = []
+    while True:
+        for c in sender.read():
+            line.append(c)
+            # print(c)
+            if line.__len__() == 6:
+                # print("Answer: ", line)
+                return line
 
 
 # ----------Only tries to get a single confirmation message and returns true if it got one----------
@@ -243,10 +255,22 @@ def get_single_input_buffer_answer_7(sender):
     while True:
         for c in sender.read():
             line.append(c)
-            print(c)
+            # print(c)
             if line.__len__() == 7:
-                print("Answer: ", line)
-                return True
+                # print("Answer: ", line)
+                return line
+
+
+# ----------Only tries to get a single confirmation message and returns true if it got one----------
+def get_single_input_buffer_answer_9(sender):
+    line = []
+    while True:
+        for c in sender.read():
+            line.append(c)
+            # print(c)
+            if line.__len__() == 9:
+                # print("Answer: ", line)
+                return line
 
 
 def ___cmd_reset_req___():
@@ -459,7 +483,6 @@ def ___cmd_get_req___(settings_index):
         checksum ^= int(message[i] + message[i + 1], 16)
         i += 2
     message += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
-    print("Message: ", message)
     return message
 
 

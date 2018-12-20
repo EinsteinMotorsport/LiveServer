@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c063e89-3c9c-4e91-8ee3-4a48b4298c9d" name="Default Changelist" comment="" />
+    <list default="true" id="8c063e89-3c9c-4e91-8ee3-4a48b4298c9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AMB8826_Library/testbench_AMB8826.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +47,10 @@
     <session id="-1709381317">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -120,7 +124,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="34" />
+    <option name="y" value="40" />
     <option name="width" value="1252" />
     <option name="height" value="1047" />
   </component>
@@ -237,7 +242,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1252" height="1047" extended-state="0" />
+    <frame x="34" y="40" width="1252" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1350906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

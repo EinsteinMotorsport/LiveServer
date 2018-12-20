@@ -1,11 +1,15 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Robin">
     <words>
+      <w>addr</w>
+      <w>baudrate</w>
       <w>dataex</w>
+      <w>dest</w>
       <w>destaddr</w>
       <w>destnetid</w>
       <w>devided</w>
       <w>papower</w>
+      <w>retrys</w>
       <w>rssi</w>
     </words>
   </dictionary>
