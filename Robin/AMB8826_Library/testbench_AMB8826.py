@@ -33,7 +33,6 @@ if sender_or_and_receiver == 2:
 
 
 AMB8826.send_data(sender, AMB8826.___cmd_data_req___from_hex("01020203030304040404"))
-# print("Received: ", AMB8826.get_single_input_buffer_answer_6(receiver))
 print("Received (new): ", AMB8826.get_answer_address_mode_1(receiver))
 
 
