@@ -189,6 +189,28 @@ def get_single_confirmation(sender):
                 return True
 
 
+# ----------For receiving a full message in address mode 1----------
+def get_answer_address_mode_1(sender):
+    line = []
+    counter = 0
+    next_two_are_length = False
+    receiving = False
+    while True:
+        for c in sender.read():
+            line.append(c)
+            if next_two_are_length:
+                length = c + 2
+                next_two_are_length = False
+                counter = length
+            if c == 129:
+                next_two_are_length = True
+                receiving = True
+            else:
+                counter = counter - 1
+            if counter == 0 and receiving:
+                return line
+
+
 # ----------gets all confirmation messages it can find,----------
 # ----------counts them and return the amount of confirmations it got----------
 def get_confirmations(sender):
