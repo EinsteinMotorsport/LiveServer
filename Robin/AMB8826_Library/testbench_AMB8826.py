@@ -29,6 +29,8 @@ if sender_or_and_receiver == 2:
         receiver.open()
         receiver.isOpen()
 
+# ###################### USER CODE BEGIN ######################
+
 
 # GET ALL PROPERTIES OF THE MODULES
 # print("SENDER: ----------------------------------------")
@@ -149,6 +151,8 @@ print("Received (new): ", AMB8826.get_answer_address_mode_1(receiver))
 #     print("Firmware Version: ", AMB8826.get_single_input_buffer_answer_8(receiver), "penultimate 3 bytes are the info")
 
 
+
+# ###################### USER CODE END ######################
 sender.close()
 if sender_or_and_receiver == 2:
     receiver.close()
