@@ -539,3 +539,32 @@ def ___cmd_factory_reset_req___():
     message += '{0:02X}'.format(checksum)  # converting the int checksum to a Hex without the 0x up front
     print("Message: ", message)
     return message
+
+
+def get_all_properties(module):
+    # get the most important properties of the modules
+    print("SETTINGS: ----------------------------------------")
+    send_data(module, ___cmd_get_req___("00"))
+    print("UART_Baudrate: ", get_single_input_buffer_answer_9(module), "  e.g. [...0, 194, 1...] == 115200")
+    send_data(module, ___cmd_get_req___("01"))
+    print("RADIO_DefaultRfProfile: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("02"))
+    print("RADIO_DefaultRfTXPower: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("03"))
+    print("RADIO_DefaultRfChannel: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("04"))
+    print("MAC_DefaultAddressMode: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("06"))
+    print("MAC_NumRetrys: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("07"))
+    print("MAC_DefaultDestNetID: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("08"))
+    print("MAC_DefaultDestAddr: ", get_single_input_buffer_answer_7(module), "penultimate bytes are the info")
+    send_data(module, ___cmd_get_req___("0A"))
+    print("MAC_SourceNetID: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("0B"))
+    print("MAC_SourceAddr: ", get_single_input_buffer_answer_7(module), "penultimate bytes are the info")
+    send_data(module, ___cmd_get_req___("0D"))
+    print("RADIO_SnifferModeEnabled: ", get_single_input_buffer_answer_6(module), "penultimate byte is the info")
+    send_data(module, ___cmd_get_req___("21"))
+    print("Firmware Version: ", get_single_input_buffer_answer_8(module), "penultimate 3 bytes are the info")
