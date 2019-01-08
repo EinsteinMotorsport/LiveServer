@@ -4,6 +4,7 @@ import time
 # ----------Sends the data it is given to the given sender----------
 def send_data(sender, data):
     sender.write(bytes.fromhex(data))
+    # print(data)
 
 
 # ----------generates a Package from a String----------
@@ -71,9 +72,9 @@ def ___cmd_dataex_req___from_hex_address_mode_1(payload):
         payload = front_null + payload
     length = '{0:02X}'.format((len(payload) // 2) + 2)  # Int to String without the 0x up front and +2 for AddressMode 1
     data += length
-    channel = "6C"
+    channel = "6A"
     data += channel
-    destination_address = "02"
+    destination_address = "07"
     data += destination_address
     data += payload
     i = 0
@@ -257,6 +258,18 @@ def get_single_input_buffer_answer_7(sender):
             line.append(c)
             # print(c)
             if line.__len__() == 7:
+                # print("Answer: ", line)
+                return line
+
+
+# ----------Only tries to get a single confirmation message and returns true if it got one----------
+def get_single_input_buffer_answer_8(sender):
+    line = []
+    while True:
+        for c in sender.read():
+            line.append(c)
+            # print(c)
+            if line.__len__() == 8:
                 # print("Answer: ", line)
                 return line
 
