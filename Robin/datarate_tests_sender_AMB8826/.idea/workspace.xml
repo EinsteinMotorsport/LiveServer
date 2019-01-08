@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2f3de46-a3f8-4dca-ac80-441c11001139" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/datarate_tests_receiver_AMB8826.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/AMB8826.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AMB8826.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/AMB8826.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/marshal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/properties.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/test.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1806609274">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="109" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="109" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_sender.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AMB8826.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+              <folding>
+                <element signature="e#47#171#0" />
+                <element signature="e#222#1072#0" />
+                <element signature="e#599#654#0" />
+                <element signature="e#896#953#0" />
+                <element signature="e#1120#2088#0" />
+                <element signature="e#1120#1178#0" />
+                <element signature="e#1615#1670#0" />
+                <element signature="e#1912#1969#0" />
+                <element signature="e#2153#3144#0" />
+                <element signature="e#2153#2211#0" />
+                <element signature="e#2538#2593#0" />
+                <element signature="e#2968#3025#0" />
+                <element signature="e#3190#3915#0" />
+                <element signature="e#3190#3291#0" />
+                <element signature="e#3583#3915#0" />
+                <element signature="e#3619#3915#0" />
+                <element signature="e#3697#3915#0" />
+                <element signature="e#4018#7614#0" />
+                <element signature="e#4018#4087#0" />
+                <element signature="e#4920#7365#0" />
+                <element signature="e#4920#4990#0" />
+                <element signature="e#5326#6247#0" />
+                <element signature="e#5457#6093#0" />
+                <element signature="e#6495#6608#0" />
+                <element signature="e#6535#6588#0" />
+                <element signature="e#6654#6863#0" />
+                <element signature="e#6891#7217#0" />
+                <element signature="e#6985#7103#0" />
+                <element signature="e#7371#7414#0" />
+                <element signature="e#7658#7987#0" />
+                <element signature="e#7797#7987#0" />
+                <element signature="e#7833#7987#0" />
+                <element signature="e#7888#7987#0" />
+                <element signature="e#8670#10115#0" />
+                <element signature="e#8670#8735#0" />
+                <element signature="e#9031#10083#0" />
+                <element signature="e#9084#9966#0" />
+                <element signature="e#9163#9412#0" />
+                <element signature="e#9273#9412#0" />
+                <element signature="e#9453#9966#0" />
+                <element signature="e#9583#9841#0" />
+                <element signature="e#9884#9966#0" />
+                <element signature="e#9975#10030#0" />
+                <element signature="e#10168#10486#0" />
+                <element signature="e#10307#10486#0" />
+                <element signature="e#10343#10486#0" />
+                <element signature="e#10433#10486#0" />
+                <element signature="e#10539#10857#0" />
+                <element signature="e#10678#10857#0" />
+                <element signature="e#10714#10857#0" />
+                <element signature="e#10804#10857#0" />
+                <element signature="e#10910#11228#0" />
+                <element signature="e#11049#11228#0" />
+                <element signature="e#11085#11228#0" />
+                <element signature="e#11175#11228#0" />
+                <element signature="e#11281#11599#0" />
+                <element signature="e#11420#11599#0" />
+                <element signature="e#11456#11599#0" />
+                <element signature="e#11546#11599#0" />
+                <element signature="e#11652#11970#0" />
+                <element signature="e#11791#11970#0" />
+                <element signature="e#11827#11970#0" />
+                <element signature="e#11917#11970#0" />
+                <element signature="e#12004#12572#0" />
+                <element signature="e#12004#12045#0" />
+                <element signature="e#12352#12415#0" />
+                <element signature="e#12609#13171#0" />
+                <element signature="e#12609#12644#0" />
+                <element signature="e#12951#13014#0" />
+                <element signature="e#13207#13775#0" />
+                <element signature="e#13207#13248#0" />
+                <element signature="e#13555#13618#0" />
+                <element signature="e#13808#14386#0" />
+                <element signature="e#13808#13859#0" />
+                <element signature="e#14166#14229#0" />
+                <element signature="e#14426#15048#0" />
+                <element signature="e#14426#14461#0" />
+                <element signature="e#14828#14891#0" />
+                <element signature="e#15088#15720#0" />
+                <element signature="e#15088#15125#0" />
+                <element signature="e#15500#15563#0" />
+                <element signature="e#15762#16459#0" />
+                <element signature="e#15762#15833#0" />
+                <element signature="e#16239#16302#0" />
+                <element signature="e#16500#17190#0" />
+                <element signature="e#16500#16571#0" />
+                <element signature="e#16970#17033#0" />
+                <element signature="e#17247#18143#0" />
+                <element signature="e#17247#17315#0" />
+                <element signature="e#17573#17632#0" />
+                <element signature="e#17923#17986#0" />
+                <element signature="e#18189#18746#0" />
+                <element signature="e#18189#18221#0" />
+                <element signature="e#18558#18621#0" />
+                <element signature="e#18788#19372#0" />
+                <element signature="e#18788#18845#0" />
+                <element signature="e#19152#19215#0" />
+                <element signature="e#19411#21405#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" />
+        <option value="$PROJECT_DIR$/AMB8826.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="230" />
+    <option name="y" value="43" />
+    <option name="width" value="1330" />
+    <option name="height" value="895" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="datarate_tests_sender_AMB8826" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datarate_tests_sender_AMB8826" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AMB8826_Library" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Robin\Documents\GitHub\LiveServer\Robin\datarate_tests_sender_AMB8826" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="datarate_tests_AMB8826_sender" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="datarate_tests_sender_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.datarate_tests_AMB8826_sender" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2f3de46-a3f8-4dca-ac80-441c11001139" name="Default Changelist" comment="" />
+      <created>1546980871648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546980871648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="230" y="43" width="1330" height="895" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22678019" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39947438" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AMB8826.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+          <folding>
+            <element signature="e#47#171#0" />
+            <element signature="e#222#1072#0" />
+            <element signature="e#599#654#0" />
+            <element signature="e#896#953#0" />
+            <element signature="e#1120#2088#0" />
+            <element signature="e#1120#1178#0" />
+            <element signature="e#1615#1670#0" />
+            <element signature="e#1912#1969#0" />
+            <element signature="e#2153#3144#0" />
+            <element signature="e#2153#2211#0" />
+            <element signature="e#2538#2593#0" />
+            <element signature="e#2968#3025#0" />
+            <element signature="e#3190#3915#0" />
+            <element signature="e#3190#3291#0" />
+            <element signature="e#3583#3915#0" />
+            <element signature="e#3619#3915#0" />
+            <element signature="e#3697#3915#0" />
+            <element signature="e#4018#7614#0" />
+            <element signature="e#4018#4087#0" />
+            <element signature="e#4920#7365#0" />
+            <element signature="e#4920#4990#0" />
+            <element signature="e#5326#6247#0" />
+            <element signature="e#5457#6093#0" />
+            <element signature="e#6495#6608#0" />
+            <element signature="e#6535#6588#0" />
+            <element signature="e#6654#6863#0" />
+            <element signature="e#6891#7217#0" />
+            <element signature="e#6985#7103#0" />
+            <element signature="e#7371#7414#0" />
+            <element signature="e#7658#7987#0" />
+            <element signature="e#7797#7987#0" />
+            <element signature="e#7833#7987#0" />
+            <element signature="e#7888#7987#0" />
+            <element signature="e#8670#10115#0" />
+            <element signature="e#8670#8735#0" />
+            <element signature="e#9031#10083#0" />
+            <element signature="e#9084#9966#0" />
+            <element signature="e#9163#9412#0" />
+            <element signature="e#9273#9412#0" />
+            <element signature="e#9453#9966#0" />
+            <element signature="e#9583#9841#0" />
+            <element signature="e#9884#9966#0" />
+            <element signature="e#9975#10030#0" />
+            <element signature="e#10168#10486#0" />
+            <element signature="e#10307#10486#0" />
+            <element signature="e#10343#10486#0" />
+            <element signature="e#10433#10486#0" />
+            <element signature="e#10539#10857#0" />
+            <element signature="e#10678#10857#0" />
+            <element signature="e#10714#10857#0" />
+            <element signature="e#10804#10857#0" />
+            <element signature="e#10910#11228#0" />
+            <element signature="e#11049#11228#0" />
+            <element signature="e#11085#11228#0" />
+            <element signature="e#11175#11228#0" />
+            <element signature="e#11281#11599#0" />
+            <element signature="e#11420#11599#0" />
+            <element signature="e#11456#11599#0" />
+            <element signature="e#11546#11599#0" />
+            <element signature="e#11652#11970#0" />
+            <element signature="e#11791#11970#0" />
+            <element signature="e#11827#11970#0" />
+            <element signature="e#11917#11970#0" />
+            <element signature="e#12004#12572#0" />
+            <element signature="e#12004#12045#0" />
+            <element signature="e#12352#12415#0" />
+            <element signature="e#12609#13171#0" />
+            <element signature="e#12609#12644#0" />
+            <element signature="e#12951#13014#0" />
+            <element signature="e#13207#13775#0" />
+            <element signature="e#13207#13248#0" />
+            <element signature="e#13555#13618#0" />
+            <element signature="e#13808#14386#0" />
+            <element signature="e#13808#13859#0" />
+            <element signature="e#14166#14229#0" />
+            <element signature="e#14426#15048#0" />
+            <element signature="e#14426#14461#0" />
+            <element signature="e#14828#14891#0" />
+            <element signature="e#15088#15720#0" />
+            <element signature="e#15088#15125#0" />
+            <element signature="e#15500#15563#0" />
+            <element signature="e#15762#16459#0" />
+            <element signature="e#15762#15833#0" />
+            <element signature="e#16239#16302#0" />
+            <element signature="e#16500#17190#0" />
+            <element signature="e#16500#16571#0" />
+            <element signature="e#16970#17033#0" />
+            <element signature="e#17247#18143#0" />
+            <element signature="e#17247#17315#0" />
+            <element signature="e#17573#17632#0" />
+            <element signature="e#17923#17986#0" />
+            <element signature="e#18189#18746#0" />
+            <element signature="e#18189#18221#0" />
+            <element signature="e#18558#18621#0" />
+            <element signature="e#18788#19372#0" />
+            <element signature="e#18788#18845#0" />
+            <element signature="e#19152#19215#0" />
+            <element signature="e#19411#21405#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

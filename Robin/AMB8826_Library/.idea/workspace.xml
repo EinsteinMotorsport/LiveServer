@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c063e89-3c9c-4e91-8ee3-4a48b4298c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/datarate_tests_receiver_AMB8826.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/AMB8826.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/AMB8826.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testbench_AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/testbench_AMB8826.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/AMB8826.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/marshal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/properties.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,12 +97,12 @@
     <session id="47689059">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,11 +136,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testbench_AMB8826.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="153">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#316#368#0" />
                 <marker date="1546979606533" expanded="true" signature="0:1087" ph="..." />
                 <marker date="1546979606533" expanded="false" signature="100:729" ph="..." />
                 <marker date="1546979606533" expanded="true" signature="795:1086" ph="..." />
@@ -129,112 +154,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#318#370#0" />
-                <marker date="1546979848345" expanded="false" signature="100:729" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AMB8826.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="204" selection-start-line="204" selection-end-line="204" />
-              <folding>
-                <element signature="e#52#103#0" />
-                <element signature="e#256#1230#0" />
-                <element signature="e#757#812#0" />
-                <element signature="e#1054#1111#0" />
-                <element signature="e#1296#2265#0" />
-                <element signature="e#1949#2004#0" />
-                <element signature="e#2246#2303#0" />
-                <element signature="e#2506#3499#0" />
-                <element signature="e#2930#2985#0" />
-                <element signature="e#3360#3417#0" />
-                <element signature="e#3601#4326#0" />
-                <element signature="e#3967#4299#0" />
-                <element signature="e#4003#4299#0" />
-                <element signature="e#4081#4299#0" />
-                <element signature="e#4482#8079#0" />
-                <element signature="e#4482#4551#0" />
-                <element signature="e#5385#7830#0" />
-                <element signature="e#5385#5455#0" />
-                <element signature="e#5791#6712#0" />
-                <element signature="e#5922#6558#0" />
-                <element signature="e#6960#7073#0" />
-                <element signature="e#7000#7053#0" />
-                <element signature="e#7119#7328#0" />
-                <element signature="e#7356#7682#0" />
-                <element signature="e#7450#7568#0" />
-                <element signature="e#7836#7879#0" />
-                <element signature="e#8141#8471#0" />
-                <element signature="e#8513#9112#0" />
-                <element signature="e#9146#10591#0" />
-                <element signature="e#8839#9891#0" />
-                <element signature="e#8892#9774#0" />
-                <element signature="e#8971#9220#0" />
-                <element signature="e#9081#9220#0" />
-                <element signature="e#9261#9774#0" />
-                <element signature="e#9391#9649#0" />
-                <element signature="e#9692#9774#0" />
-                <element signature="e#9783#9838#0" />
-                <element signature="e#10640#10853#0" />
-                <element signature="e#10111#10290#0" />
-                <element signature="e#10147#10290#0" />
-                <element signature="e#10237#10290#0" />
-                <element signature="e#11007#11220#0" />
-                <element signature="e#10478#10657#0" />
-                <element signature="e#10514#10657#0" />
-                <element signature="e#10604#10657#0" />
-                <element signature="e#11374#11587#0" />
-                <element signature="e#11741#11954#0" />
-                <element signature="e#12209#12422#0" />
-                <element signature="e#11212#11391#0" />
-                <element signature="e#11248#11391#0" />
-                <element signature="e#11338#11391#0" />
-                <element signature="e#11425#11993#0" />
-                <element signature="e#11425#11466#0" />
-                <element signature="e#11773#11836#0" />
-                <element signature="e#12030#12592#0" />
-                <element signature="e#12030#12065#0" />
-                <element signature="e#12372#12435#0" />
-                <element signature="e#12628#13196#0" />
-                <element signature="e#12628#12669#0" />
-                <element signature="e#12976#13039#0" />
-                <element signature="e#13229#13807#0" />
-                <element signature="e#13229#13280#0" />
-                <element signature="e#13587#13650#0" />
-                <element signature="e#13847#14469#0" />
-                <element signature="e#13847#13882#0" />
-                <element signature="e#14249#14312#0" />
-                <element signature="e#14509#15141#0" />
-                <element signature="e#14509#14546#0" />
-                <element signature="e#14921#14984#0" />
-                <element signature="e#15183#15880#0" />
-                <element signature="e#15183#15254#0" />
-                <element signature="e#15660#15723#0" />
-                <element signature="e#15921#16611#0" />
-                <element signature="e#15921#15992#0" />
-                <element signature="e#16391#16454#0" />
-                <element signature="e#16668#17564#0" />
-                <element signature="e#16668#16736#0" />
-                <element signature="e#16994#17053#0" />
-                <element signature="e#17344#17407#0" />
-                <element signature="e#17610#18167#0" />
-                <element signature="e#17610#17642#0" />
-                <element signature="e#17979#18042#0" />
-                <element signature="e#18209#18793#0" />
-                <element signature="e#18209#18266#0" />
-                <element signature="e#18573#18636#0" />
-                <element signature="e#19863#21802#0" />
-              </folding>
+            <state relative-caret-position="578">
+              <caret line="201" column="37" lean-forward="true" selection-start-line="201" selection-start-column="37" selection-end-line="201" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -261,14 +184,15 @@
         <option value="$PROJECT_DIR$/InitSerialPorts.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/testLibrary.py" />
-        <option value="$PROJECT_DIR$/AMB8826.py" />
         <option value="$PROJECT_DIR$/testbench_AMB8826.py" />
         <option value="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" />
+        <option value="$PROJECT_DIR$/AMB8826.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="83" />
+    <option name="y" value="75" />
     <option name="width" value="1722" />
     <option name="height" value="1047" />
   </component>
@@ -295,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,20 +227,15 @@
               <item name="AMB8826_Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="AMB8826_Library" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AMB8826_Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="datarate_tests_AMB8826" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Radio_Module" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -330,6 +250,27 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="datarate_tests_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testbench_AMB8826" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,6 +290,93 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="datarate_tests_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="datarate_tests_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="datarate_tests_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="datarate_tests_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="datarate_tests_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="datarate_tests_AMB8826" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -380,14 +408,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="83" y="75" width="1722" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14857745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16745843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858709" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32212582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32201535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28308025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,111 +466,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/testLibrary.py" />
-    <entry file="file://$PROJECT_DIR$/AMB8826.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="204" selection-start-line="204" selection-end-line="204" />
-          <folding>
-            <element signature="e#52#103#0" />
-            <element signature="e#256#1230#0" />
-            <element signature="e#757#812#0" />
-            <element signature="e#1054#1111#0" />
-            <element signature="e#1296#2265#0" />
-            <element signature="e#1949#2004#0" />
-            <element signature="e#2246#2303#0" />
-            <element signature="e#2506#3499#0" />
-            <element signature="e#2930#2985#0" />
-            <element signature="e#3360#3417#0" />
-            <element signature="e#3601#4326#0" />
-            <element signature="e#3967#4299#0" />
-            <element signature="e#4003#4299#0" />
-            <element signature="e#4081#4299#0" />
-            <element signature="e#4482#8079#0" />
-            <element signature="e#4482#4551#0" />
-            <element signature="e#5385#7830#0" />
-            <element signature="e#5385#5455#0" />
-            <element signature="e#5791#6712#0" />
-            <element signature="e#5922#6558#0" />
-            <element signature="e#6960#7073#0" />
-            <element signature="e#7000#7053#0" />
-            <element signature="e#7119#7328#0" />
-            <element signature="e#7356#7682#0" />
-            <element signature="e#7450#7568#0" />
-            <element signature="e#7836#7879#0" />
-            <element signature="e#8141#8471#0" />
-            <element signature="e#8513#9112#0" />
-            <element signature="e#9146#10591#0" />
-            <element signature="e#8839#9891#0" />
-            <element signature="e#8892#9774#0" />
-            <element signature="e#8971#9220#0" />
-            <element signature="e#9081#9220#0" />
-            <element signature="e#9261#9774#0" />
-            <element signature="e#9391#9649#0" />
-            <element signature="e#9692#9774#0" />
-            <element signature="e#9783#9838#0" />
-            <element signature="e#10640#10853#0" />
-            <element signature="e#10111#10290#0" />
-            <element signature="e#10147#10290#0" />
-            <element signature="e#10237#10290#0" />
-            <element signature="e#11007#11220#0" />
-            <element signature="e#10478#10657#0" />
-            <element signature="e#10514#10657#0" />
-            <element signature="e#10604#10657#0" />
-            <element signature="e#11374#11587#0" />
-            <element signature="e#11741#11954#0" />
-            <element signature="e#12209#12422#0" />
-            <element signature="e#11212#11391#0" />
-            <element signature="e#11248#11391#0" />
-            <element signature="e#11338#11391#0" />
-            <element signature="e#11425#11993#0" />
-            <element signature="e#11425#11466#0" />
-            <element signature="e#11773#11836#0" />
-            <element signature="e#12030#12592#0" />
-            <element signature="e#12030#12065#0" />
-            <element signature="e#12372#12435#0" />
-            <element signature="e#12628#13196#0" />
-            <element signature="e#12628#12669#0" />
-            <element signature="e#12976#13039#0" />
-            <element signature="e#13229#13807#0" />
-            <element signature="e#13229#13280#0" />
-            <element signature="e#13587#13650#0" />
-            <element signature="e#13847#14469#0" />
-            <element signature="e#13847#13882#0" />
-            <element signature="e#14249#14312#0" />
-            <element signature="e#14509#15141#0" />
-            <element signature="e#14509#14546#0" />
-            <element signature="e#14921#14984#0" />
-            <element signature="e#15183#15880#0" />
-            <element signature="e#15183#15254#0" />
-            <element signature="e#15660#15723#0" />
-            <element signature="e#15921#16611#0" />
-            <element signature="e#15921#15992#0" />
-            <element signature="e#16391#16454#0" />
-            <element signature="e#16668#17564#0" />
-            <element signature="e#16668#16736#0" />
-            <element signature="e#16994#17053#0" />
-            <element signature="e#17344#17407#0" />
-            <element signature="e#17610#18167#0" />
-            <element signature="e#17610#17642#0" />
-            <element signature="e#17979#18042#0" />
-            <element signature="e#18209#18793#0" />
-            <element signature="e#18209#18266#0" />
-            <element signature="e#18573#18636#0" />
-            <element signature="e#19863#21802#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/venv/pyvenv.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" />
     <entry file="file://$PROJECT_DIR$/testbench_AMB8826.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="42" selection-end-column="20" />
+        <state relative-caret-position="153">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#316#368#0" />
             <marker date="1546979606533" expanded="true" signature="0:1087" ph="..." />
             <marker date="1546979606533" expanded="false" signature="100:729" ph="..." />
             <marker date="1546979606533" expanded="true" signature="795:1086" ph="..." />
@@ -549,15 +480,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py">
+    <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/venv/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AMB8826.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#318#370#0" />
-            <marker date="1546979848345" expanded="false" signature="100:729" ph="..." />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="201" column="37" lean-forward="true" selection-start-line="201" selection-start-column="37" selection-end-line="201" selection-end-column="37" />
         </state>
       </provider>
     </entry>
