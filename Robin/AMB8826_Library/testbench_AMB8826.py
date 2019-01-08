@@ -2,7 +2,7 @@ import time
 import serial
 import AMB8826
 
-sender_or_and_receiver = 2  # 1 for sender, 2 for both
+sender_or_and_receiver = 2  # 1 for sender, 2 for both (
 
 sender = serial.Serial(  # initializes the sender on COM3
     port='COM3',

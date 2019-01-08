@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c063e89-3c9c-4e91-8ee3-4a48b4298c9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbench_AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/testbench_AMB8826.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +71,7 @@
     <session id="47689059">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -77,41 +81,62 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="cfg" value="1" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="38" />
-          <entry key="py" value="3424" />
+          <entry key="py" value="3427" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="3424" />
+          <entry key="Python" value="3427" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testbench_AMB8826.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
+            <state>
+              <caret selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#316#368#0" />
-                <marker date="1546979511894" expanded="true" signature="0:1085" ph="..." />
-                <marker date="1546979511894" expanded="false" signature="98:727" ph="..." />
-                <marker date="1546979511894" expanded="true" signature="793:1084" ph="..." />
+                <marker date="1546979606533" expanded="true" signature="0:1087" ph="..." />
+                <marker date="1546979606533" expanded="false" signature="100:729" ph="..." />
+                <marker date="1546979606533" expanded="true" signature="795:1086" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/venv/pyvenv.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#318#370#0" />
+                <marker date="1546979848345" expanded="false" signature="100:729" ph="..." />
               </folding>
             </state>
           </provider>
@@ -121,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/AMB8826.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+              <caret line="204" selection-start-line="204" selection-end-line="204" />
               <folding>
                 <element signature="e#52#103#0" />
                 <element signature="e#256#1230#0" />
@@ -238,6 +263,7 @@
         <option value="$PROJECT_DIR$/testLibrary.py" />
         <option value="$PROJECT_DIR$/AMB8826.py" />
         <option value="$PROJECT_DIR$/testbench_AMB8826.py" />
+        <option value="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" />
       </list>
     </option>
   </component>
@@ -276,6 +302,10 @@
               <item name="AMB8826_Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="AMB8826_Library" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AMB8826_Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datarate_tests_AMB8826" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -285,7 +315,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Radio_Module" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -351,14 +381,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14857745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14857745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858709" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32212582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28308025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +440,7 @@
     <entry file="file://$PROJECT_DIR$/AMB8826.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
           <folding>
             <element signature="e#52#103#0" />
             <element signature="e#256#1230#0" />
@@ -503,16 +532,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/venv/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/testbench_AMB8826.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
+        <state>
+          <caret selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#316#368#0" />
-            <marker date="1546979511894" expanded="true" signature="0:1085" ph="..." />
-            <marker date="1546979511894" expanded="false" signature="98:727" ph="..." />
-            <marker date="1546979511894" expanded="true" signature="793:1084" ph="..." />
+            <marker date="1546979606533" expanded="true" signature="0:1087" ph="..." />
+            <marker date="1546979606533" expanded="false" signature="100:729" ph="..." />
+            <marker date="1546979606533" expanded="true" signature="795:1086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#318#370#0" />
+            <marker date="1546979848345" expanded="false" signature="100:729" ph="..." />
           </folding>
         </state>
       </provider>
