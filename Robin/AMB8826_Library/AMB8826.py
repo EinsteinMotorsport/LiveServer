@@ -1,16 +1,14 @@
 import time
 
 
-# ----------Sends the data it is given to the given sender----------
 def send_data(sender, data):
+    # ----------Sends the data it is given to the given sender----------
     sender.write(bytes.fromhex(data))
     # print(data)
 
 
-# ----------generates a Package from a String----------
 def ___cmd_data_req___from_string(payload):
-    # Needs start signal, command, length, payload and checksum
-    # Standard start signal that can be changed. If you change it maybe you have to change the rest # of the format too
+    # ----------generates a Package from a String----------
     start_signal = "02"
     # Standard command that can be changed. If you change it maybe you have to change the rest # of the format too
     command = "00"
@@ -32,11 +30,9 @@ def ___cmd_data_req___from_string(payload):
     return data
 
 
-# ----------generates a package from Hex numbers----------
-# ----------e.g. generatePackageFromHexWithoutAddress('{0:02X}'.format(324375324987509759375347598))----------
 def ___cmd_data_req___from_hex(payload):
-    # Needs start signal, command, length, payload and checksum
-    # Standard start signal that can be changed. If you change it maybe you have to change the rest # of the format too
+    # ----------generates a package from Hex numbers----------
+    # ----------e.g. generatePackageFromHexWithoutAddress('{0:02X}'.format(324375324987509759375347598))----------
     start_signal = "02"
     # Standard command that can be changed. If you change it maybe you have to change the rest # of the format too
     command = "00"
@@ -58,10 +54,9 @@ def ___cmd_data_req___from_hex(payload):
     return data
 
 
-# ----------generates a package from Hex numbers----------
-# ----------e.g. ___cmd_dataex_req___from_hex_address_mode_1('{0:02X}'.format(324375324987509759375347598))----------
 def ___cmd_dataex_req___from_hex_address_mode_1(payload):
-    # Needs start signal, command, length, payload and checksum
+    # ----------generates a package from Hex numbers----------
+    # ----------e.g. ___cmd_dataex_req___from_hex_address_mode_1('{0:02X}'.format(324375324987509759375347598))--------
     start_signal = "02"
     command = "01"
     data = ""
@@ -86,9 +81,9 @@ def ___cmd_dataex_req___from_hex_address_mode_1(payload):
     return data
 
 
-# ----------performs a simple ping test to get the delay between the sending of the message----------
-# ----------and receiving of the confirmation message devided by 2 and returns it----------
 def ping_test_without_address(sender):
+    # ----------performs a simple ping test to get the delay between the sending of the message----------
+    # ----------and receiving of the confirmation message devided by 2 and returns it----------
     start_time = int(round(time.time() * 1000))
     send_data(sender, ___cmd_data_req___from_string("48656C6C6F20576F726C642121"))  # sends "Hello World!"
     # line = []
@@ -104,7 +99,6 @@ def ping_test_without_address(sender):
                 return delta
 
 
-# ----------performs a speed test to determine the possible data rate----------
 def speed_test_without_address(sender, amount_of_data, number_of_validations, delta_intervals):
     # Sends as many packages to the sender, as defined in "amountOfData".
     # Lowers the interval by "deltaIntervals" between the data points until the data isn't received correctly anymore.
@@ -113,7 +107,6 @@ def speed_test_without_address(sender, amount_of_data, number_of_validations, de
     # Then it calculates the bits/s from the size of the payload
     # and the time needed
     # the size of the message has to be changed by modifying the code down below (the string in "generatePackage")
-
     interval = 60
     # data_send_correctly = True
     not_enough_validations = True
@@ -178,8 +171,8 @@ def speed_test_without_address(sender, amount_of_data, number_of_validations, de
     print("Reached: ", efficiency, " bytes per second without overhead")
 
 
-# ----------Only tries to get a single confirmation message and returns true if it got one----------
 def get_single_confirmation(sender):
+    # ----------Only tries to get a single confirmation message and returns true if it got one----------
     line = []
     while True:
         for c in sender.read():
@@ -189,8 +182,8 @@ def get_single_confirmation(sender):
                 return True
 
 
-# ----------For receiving a full message in address mode 1----------
 def get_answer_address_mode_1(sender):
+    # ----------For receiving a full message in address mode 1----------
     line = []
     counter = 0
     next_two_are_length = False
@@ -211,9 +204,9 @@ def get_answer_address_mode_1(sender):
                 return line
 
 
-# ----------gets all confirmation messages it can find,----------
-# ----------counts them and return the amount of confirmations it got----------
 def get_confirmations(sender):
+    # ----------gets all confirmation messages it can find,----------
+    # ----------counts them and return the amount of confirmations it got----------
     line = []
     confirmation_counter = 0
     # print("SENDER IN WAITING: ", sender.in_waiting)
@@ -248,8 +241,8 @@ def get_confirmations(sender):
     return confirmation_counter
 
 
-# ----------Only tries to get a single confirmation message and returns true if it got one----------
 def get_single_input_buffer_answer_5(sender):
+    # ----------Only tries to get a single confirmation message and returns true if it got one----------
     line = []
     while True:
         for c in sender.read():
@@ -260,8 +253,8 @@ def get_single_input_buffer_answer_5(sender):
                 return line
 
 
-# ----------Only tries to get a single confirmation message and returns true if it got one----------
 def get_single_input_buffer_answer_6(sender):
+    # ----------Only tries to get a single confirmation message and returns true if it got one----------
     line = []
     while True:
         for c in sender.read():
@@ -272,8 +265,8 @@ def get_single_input_buffer_answer_6(sender):
                 return line
 
 
-# ----------Only tries to get a single confirmation message and returns true if it got one----------
 def get_single_input_buffer_answer_7(sender):
+    # ----------Only tries to get a single confirmation message and returns true if it got one----------
     line = []
     while True:
         for c in sender.read():
@@ -284,8 +277,8 @@ def get_single_input_buffer_answer_7(sender):
                 return line
 
 
-# ----------Only tries to get a single confirmation message and returns true if it got one----------
 def get_single_input_buffer_answer_8(sender):
+    # ----------Only tries to get a single confirmation message and returns true if it got one----------
     line = []
     while True:
         for c in sender.read():
@@ -296,8 +289,8 @@ def get_single_input_buffer_answer_8(sender):
                 return line
 
 
-# ----------Only tries to get a single confirmation message and returns true if it got one----------
 def get_single_input_buffer_answer_9(sender):
+    # ----------Only tries to get a single confirmation message and returns true if it got one----------
     line = []
     while True:
         for c in sender.read():
