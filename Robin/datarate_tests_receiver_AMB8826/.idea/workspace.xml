@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91aa8511-b04d-4cef-bb1a-a153d28ee192" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/datarate_tests_receiver_AMB8826.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMB8826.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datarate_tests_AMB8826_receiver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/AMB8826.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/AMB8826.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/errors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/marshal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/meta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/properties.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Radio_Module/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Radio_Module/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/datarate_tests_AMB8826_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +17,9 @@
     <session id="-272487824">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,21 +35,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_receiver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="289">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AMB8826.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="194" column="30" lean-forward="true" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+            <state relative-caret-position="281">
+              <caret line="199" column="23" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -93,8 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2152" />
-    <option name="y" value="73" />
+    <option name="x" value="2205" />
+    <option name="y" value="120" />
     <option name="width" value="1330" />
     <option name="height" value="895" />
   </component>
@@ -180,16 +154,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2152" y="73" width="1330" height="895" extended-state="0" />
+    <frame x="2205" y="120" width="1330" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
@@ -197,6 +167,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -206,17 +180,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_receiver.py">
+    <entry file="file://$PROJECT_DIR$/AMB8826.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="281">
+          <caret line="199" column="23" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AMB8826.py">
+    <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_receiver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="194" column="30" lean-forward="true" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+        <state relative-caret-position="289">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>

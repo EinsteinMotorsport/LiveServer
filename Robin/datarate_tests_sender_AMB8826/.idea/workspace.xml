@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f3de46-a3f8-4dca-ac80-441c11001139" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/datarate_tests_receiver_AMB8826.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/AMB8826.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AMB8826.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AMB8826_Library/AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AMB8826_Library/AMB8826.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial-0.0.87.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/errors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/marshal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/meta.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/properties.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_AMB8826/venv/Lib/site-packages/serial/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Radio_Module/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Radio_Module/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +17,8 @@
     <session id="1806609274">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,23 +33,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="109" />
+          <entry key="py" value="690" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="109" />
+          <entry key="Python" value="690" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_sender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="190">
+              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -84,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AMB8826.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+            <state relative-caret-position="968">
+              <caret line="536" column="25" selection-start-line="536" selection-start-column="25" selection-end-line="536" selection-end-column="25" />
               <folding>
                 <element signature="e#47#171#0" />
                 <element signature="e#222#1072#0" />
@@ -123,71 +96,71 @@
                 <element signature="e#7797#7987#0" />
                 <element signature="e#7833#7987#0" />
                 <element signature="e#7888#7987#0" />
-                <element signature="e#8670#10115#0" />
-                <element signature="e#8670#8735#0" />
-                <element signature="e#9031#10083#0" />
-                <element signature="e#9084#9966#0" />
-                <element signature="e#9163#9412#0" />
-                <element signature="e#9273#9412#0" />
-                <element signature="e#9453#9966#0" />
-                <element signature="e#9583#9841#0" />
-                <element signature="e#9884#9966#0" />
-                <element signature="e#9975#10030#0" />
-                <element signature="e#10168#10486#0" />
-                <element signature="e#10307#10486#0" />
-                <element signature="e#10343#10486#0" />
-                <element signature="e#10433#10486#0" />
-                <element signature="e#10539#10857#0" />
-                <element signature="e#10678#10857#0" />
-                <element signature="e#10714#10857#0" />
-                <element signature="e#10804#10857#0" />
-                <element signature="e#10910#11228#0" />
-                <element signature="e#11049#11228#0" />
-                <element signature="e#11085#11228#0" />
-                <element signature="e#11175#11228#0" />
-                <element signature="e#11281#11599#0" />
-                <element signature="e#11420#11599#0" />
-                <element signature="e#11456#11599#0" />
-                <element signature="e#11546#11599#0" />
-                <element signature="e#11652#11970#0" />
-                <element signature="e#11791#11970#0" />
-                <element signature="e#11827#11970#0" />
-                <element signature="e#11917#11970#0" />
-                <element signature="e#12004#12572#0" />
-                <element signature="e#12004#12045#0" />
-                <element signature="e#12352#12415#0" />
-                <element signature="e#12609#13171#0" />
-                <element signature="e#12609#12644#0" />
-                <element signature="e#12951#13014#0" />
-                <element signature="e#13207#13775#0" />
-                <element signature="e#13207#13248#0" />
-                <element signature="e#13555#13618#0" />
-                <element signature="e#13808#14386#0" />
-                <element signature="e#13808#13859#0" />
-                <element signature="e#14166#14229#0" />
-                <element signature="e#14426#15048#0" />
-                <element signature="e#14426#14461#0" />
-                <element signature="e#14828#14891#0" />
-                <element signature="e#15088#15720#0" />
-                <element signature="e#15088#15125#0" />
-                <element signature="e#15500#15563#0" />
-                <element signature="e#15762#16459#0" />
-                <element signature="e#15762#15833#0" />
-                <element signature="e#16239#16302#0" />
-                <element signature="e#16500#17190#0" />
-                <element signature="e#16500#16571#0" />
-                <element signature="e#16970#17033#0" />
-                <element signature="e#17247#18143#0" />
-                <element signature="e#17247#17315#0" />
-                <element signature="e#17573#17632#0" />
-                <element signature="e#17923#17986#0" />
-                <element signature="e#18189#18746#0" />
-                <element signature="e#18189#18221#0" />
-                <element signature="e#18558#18621#0" />
-                <element signature="e#18788#19372#0" />
-                <element signature="e#18788#18845#0" />
-                <element signature="e#19152#19215#0" />
-                <element signature="e#19411#21405#0" />
+                <element signature="e#8033#8650#0" />
+                <element signature="e#8313#8404#0" />
+                <element signature="e#8464#8523#0" />
+                <element signature="e#8688#10133#0" />
+                <element signature="e#8688#8753#0" />
+                <element signature="e#9049#10101#0" />
+                <element signature="e#9102#9984#0" />
+                <element signature="e#9181#9430#0" />
+                <element signature="e#9291#9430#0" />
+                <element signature="e#9471#9984#0" />
+                <element signature="e#9601#9859#0" />
+                <element signature="e#9902#9984#0" />
+                <element signature="e#9993#10048#0" />
+                <element signature="e#10186#10504#0" />
+                <element signature="e#10557#10875#0" />
+                <element signature="e#10696#10875#0" />
+                <element signature="e#10732#10875#0" />
+                <element signature="e#10822#10875#0" />
+                <element signature="e#10928#11246#0" />
+                <element signature="e#11067#11246#0" />
+                <element signature="e#11103#11246#0" />
+                <element signature="e#11193#11246#0" />
+                <element signature="e#11299#11617#0" />
+                <element signature="e#11438#11617#0" />
+                <element signature="e#11474#11617#0" />
+                <element signature="e#11564#11617#0" />
+                <element signature="e#11670#11988#0" />
+                <element signature="e#11809#11988#0" />
+                <element signature="e#11845#11988#0" />
+                <element signature="e#11935#11988#0" />
+                <element signature="e#12022#12590#0" />
+                <element signature="e#12022#12063#0" />
+                <element signature="e#12370#12433#0" />
+                <element signature="e#12627#13189#0" />
+                <element signature="e#12627#12662#0" />
+                <element signature="e#12969#13032#0" />
+                <element signature="e#13225#13793#0" />
+                <element signature="e#13225#13266#0" />
+                <element signature="e#13573#13636#0" />
+                <element signature="e#13826#14404#0" />
+                <element signature="e#13826#13877#0" />
+                <element signature="e#14184#14247#0" />
+                <element signature="e#14444#15066#0" />
+                <element signature="e#14444#14479#0" />
+                <element signature="e#14846#14909#0" />
+                <element signature="e#15106#15738#0" />
+                <element signature="e#15106#15143#0" />
+                <element signature="e#15518#15581#0" />
+                <element signature="e#15780#16477#0" />
+                <element signature="e#15780#15851#0" />
+                <element signature="e#16257#16320#0" />
+                <element signature="e#16518#17208#0" />
+                <element signature="e#16518#16589#0" />
+                <element signature="e#16988#17051#0" />
+                <element signature="e#17265#18161#0" />
+                <element signature="e#17265#17333#0" />
+                <element signature="e#17591#17650#0" />
+                <element signature="e#17941#18004#0" />
+                <element signature="e#18207#18764#0" />
+                <element signature="e#18207#18239#0" />
+                <element signature="e#18576#18639#0" />
+                <element signature="e#18806#19390#0" />
+                <element signature="e#18806#18863#0" />
+                <element signature="e#19170#19233#0" />
+                <element signature="e#19429#21423#0" />
               </folding>
             </state>
           </provider>
@@ -201,8 +174,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" />
         <option value="$PROJECT_DIR$/AMB8826.py" />
+        <option value="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" />
       </list>
     </option>
   </component>
@@ -218,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,10 +202,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AMB8826_Library" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_Radio_Module" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -298,13 +271,9 @@
     <frame x="230" y="43" width="1330" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22678019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298292" />
@@ -312,6 +281,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,20 +294,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_sender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AMB8826.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+        <state relative-caret-position="968">
+          <caret line="536" column="25" selection-start-line="536" selection-start-column="25" selection-end-line="536" selection-end-column="25" />
           <folding>
             <element signature="e#47#171#0" />
             <element signature="e#222#1072#0" />
@@ -369,71 +332,81 @@
             <element signature="e#7797#7987#0" />
             <element signature="e#7833#7987#0" />
             <element signature="e#7888#7987#0" />
-            <element signature="e#8670#10115#0" />
-            <element signature="e#8670#8735#0" />
-            <element signature="e#9031#10083#0" />
-            <element signature="e#9084#9966#0" />
-            <element signature="e#9163#9412#0" />
-            <element signature="e#9273#9412#0" />
-            <element signature="e#9453#9966#0" />
-            <element signature="e#9583#9841#0" />
-            <element signature="e#9884#9966#0" />
-            <element signature="e#9975#10030#0" />
-            <element signature="e#10168#10486#0" />
-            <element signature="e#10307#10486#0" />
-            <element signature="e#10343#10486#0" />
-            <element signature="e#10433#10486#0" />
-            <element signature="e#10539#10857#0" />
-            <element signature="e#10678#10857#0" />
-            <element signature="e#10714#10857#0" />
-            <element signature="e#10804#10857#0" />
-            <element signature="e#10910#11228#0" />
-            <element signature="e#11049#11228#0" />
-            <element signature="e#11085#11228#0" />
-            <element signature="e#11175#11228#0" />
-            <element signature="e#11281#11599#0" />
-            <element signature="e#11420#11599#0" />
-            <element signature="e#11456#11599#0" />
-            <element signature="e#11546#11599#0" />
-            <element signature="e#11652#11970#0" />
-            <element signature="e#11791#11970#0" />
-            <element signature="e#11827#11970#0" />
-            <element signature="e#11917#11970#0" />
-            <element signature="e#12004#12572#0" />
-            <element signature="e#12004#12045#0" />
-            <element signature="e#12352#12415#0" />
-            <element signature="e#12609#13171#0" />
-            <element signature="e#12609#12644#0" />
-            <element signature="e#12951#13014#0" />
-            <element signature="e#13207#13775#0" />
-            <element signature="e#13207#13248#0" />
-            <element signature="e#13555#13618#0" />
-            <element signature="e#13808#14386#0" />
-            <element signature="e#13808#13859#0" />
-            <element signature="e#14166#14229#0" />
-            <element signature="e#14426#15048#0" />
-            <element signature="e#14426#14461#0" />
-            <element signature="e#14828#14891#0" />
-            <element signature="e#15088#15720#0" />
-            <element signature="e#15088#15125#0" />
-            <element signature="e#15500#15563#0" />
-            <element signature="e#15762#16459#0" />
-            <element signature="e#15762#15833#0" />
-            <element signature="e#16239#16302#0" />
-            <element signature="e#16500#17190#0" />
-            <element signature="e#16500#16571#0" />
-            <element signature="e#16970#17033#0" />
-            <element signature="e#17247#18143#0" />
-            <element signature="e#17247#17315#0" />
-            <element signature="e#17573#17632#0" />
-            <element signature="e#17923#17986#0" />
-            <element signature="e#18189#18746#0" />
-            <element signature="e#18189#18221#0" />
-            <element signature="e#18558#18621#0" />
-            <element signature="e#18788#19372#0" />
-            <element signature="e#18788#18845#0" />
-            <element signature="e#19152#19215#0" />
-            <element signature="e#19411#21405#0" />
+            <element signature="e#8033#8650#0" />
+            <element signature="e#8313#8404#0" />
+            <element signature="e#8464#8523#0" />
+            <element signature="e#8688#10133#0" />
+            <element signature="e#8688#8753#0" />
+            <element signature="e#9049#10101#0" />
+            <element signature="e#9102#9984#0" />
+            <element signature="e#9181#9430#0" />
+            <element signature="e#9291#9430#0" />
+            <element signature="e#9471#9984#0" />
+            <element signature="e#9601#9859#0" />
+            <element signature="e#9902#9984#0" />
+            <element signature="e#9993#10048#0" />
+            <element signature="e#10186#10504#0" />
+            <element signature="e#10557#10875#0" />
+            <element signature="e#10696#10875#0" />
+            <element signature="e#10732#10875#0" />
+            <element signature="e#10822#10875#0" />
+            <element signature="e#10928#11246#0" />
+            <element signature="e#11067#11246#0" />
+            <element signature="e#11103#11246#0" />
+            <element signature="e#11193#11246#0" />
+            <element signature="e#11299#11617#0" />
+            <element signature="e#11438#11617#0" />
+            <element signature="e#11474#11617#0" />
+            <element signature="e#11564#11617#0" />
+            <element signature="e#11670#11988#0" />
+            <element signature="e#11809#11988#0" />
+            <element signature="e#11845#11988#0" />
+            <element signature="e#11935#11988#0" />
+            <element signature="e#12022#12590#0" />
+            <element signature="e#12022#12063#0" />
+            <element signature="e#12370#12433#0" />
+            <element signature="e#12627#13189#0" />
+            <element signature="e#12627#12662#0" />
+            <element signature="e#12969#13032#0" />
+            <element signature="e#13225#13793#0" />
+            <element signature="e#13225#13266#0" />
+            <element signature="e#13573#13636#0" />
+            <element signature="e#13826#14404#0" />
+            <element signature="e#13826#13877#0" />
+            <element signature="e#14184#14247#0" />
+            <element signature="e#14444#15066#0" />
+            <element signature="e#14444#14479#0" />
+            <element signature="e#14846#14909#0" />
+            <element signature="e#15106#15738#0" />
+            <element signature="e#15106#15143#0" />
+            <element signature="e#15518#15581#0" />
+            <element signature="e#15780#16477#0" />
+            <element signature="e#15780#15851#0" />
+            <element signature="e#16257#16320#0" />
+            <element signature="e#16518#17208#0" />
+            <element signature="e#16518#16589#0" />
+            <element signature="e#16988#17051#0" />
+            <element signature="e#17265#18161#0" />
+            <element signature="e#17265#17333#0" />
+            <element signature="e#17591#17650#0" />
+            <element signature="e#17941#18004#0" />
+            <element signature="e#18207#18764#0" />
+            <element signature="e#18207#18239#0" />
+            <element signature="e#18576#18639#0" />
+            <element signature="e#18806#19390#0" />
+            <element signature="e#18806#18863#0" />
+            <element signature="e#19170#19233#0" />
+            <element signature="e#19429#21423#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
