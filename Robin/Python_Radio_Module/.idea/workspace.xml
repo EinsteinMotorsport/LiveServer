@@ -4,6 +4,7 @@
     <list default="true" id="8c063e89-3c9c-4e91-8ee3-4a48b4298c9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/datarate_tests_AMB8826_receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/datarate_tests_AMB8826_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/datarate_tests_AMB8826_sender.py" afterDir="false" />
     </list>
