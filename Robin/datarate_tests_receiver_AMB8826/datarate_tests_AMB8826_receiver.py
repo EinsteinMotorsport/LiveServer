@@ -36,9 +36,7 @@ while True:  # is running the whole time and is not intended to stop
                     keep_waiting = False  # End the measurement
                     AMB8826.send_data(receiver, AMB8826.___cmd_data_req___from_hex("FF"))  # Wake up the sender
                     print("Receiver got the timeout and woke up sender")
-                    keep_waiting = False
                 elif len(received) == amount_of_messages:  # the whole measurement data was received (excluding timeout)
-                    print("Trotzdem in IF rein ")
                     for x in received:  # loop through the received message
                         if received[x] != x:  # check for errors
                             error_counter += error_counter
@@ -49,7 +47,6 @@ while True:  # is running the whole time and is not intended to stop
                     else:
                         print("Error counter:  ", error_counter, "   What was received: ", received)
                         keep_waiting = False  # End measurement
-
 
 
 # ###################### USER CODE END ######################
