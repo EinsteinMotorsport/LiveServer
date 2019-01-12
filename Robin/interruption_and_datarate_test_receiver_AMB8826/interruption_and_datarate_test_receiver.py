@@ -23,7 +23,7 @@ while True:
     line = AMB8826.get_answer_address_mode_1(receiver)
     offset = 3
     buffer = 0
-    for x in range(len(line)-6):
+    for x in range(len(line)-6-122):
         buffer = buffer + line[len(line) - offset] * pow(16, (offset - 3)*2)
         offset += 1
     received.append(buffer)

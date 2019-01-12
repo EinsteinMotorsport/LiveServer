@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2f3de46-a3f8-4dca-ac80-441c11001139" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/interruption_and_datarate_test_receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/interruption_and_datarate_test_receiver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/.idea/workspace.xml" afterDir="false" />
@@ -55,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_sender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="51">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="39" selection-end-column="63" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <marker date="1547298951480" expanded="true" signature="116:231" ph="..." />
@@ -276,6 +277,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21047008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -419,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_sender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="51">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="39" selection-end-column="63" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1547298951480" expanded="true" signature="116:231" ph="..." />
