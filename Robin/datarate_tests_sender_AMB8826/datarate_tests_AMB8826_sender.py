@@ -31,7 +31,7 @@ if sender.isOpen():
 now = datetime.datetime.now()  # get the current time for the logging
 filename = now.strftime("%Y_%m_%d___%H_%M_%S") + "_log.txt"  # create the filename of the new logfile
 logging.basicConfig(filename=filename , level=logging.DEBUG, format='%(message)s   %(asctime)s')  # config logfile
-amount_of_messages = 200  # Setup for later
+amount_of_messages = 20  # Setup for later
 continue_test = True  # Setup for later
 start_indication = "FF"  # Setup for later
 message_filler = "0011223344556677889900112233445566778899001122334455667788990011223344556677889900" \
@@ -60,8 +60,7 @@ while keep_alive:  # keeps the whole program running
             time.sleep(sleep_time)  # Wait until sending the next message
         t = Timer(timeout_value, timeout)  # Initializing the Timer
         t.start()  # Starting the timer
-        # answer = AMB8826.get_answer_address_mode_1(sender)  # waiting for an answer
-        answer = "aaaa"  # delete above line for original data rate test
+        answer = AMB8826.get_answer_address_mode_1(sender)  # waiting for an answer
         t.cancel()  # ending the timer
         if answer[len(answer) - 3] == 255:  # if the receiver sent the signal for a finished measurement
             end_time = int(round(time.time() * 1000))  # taking the end time

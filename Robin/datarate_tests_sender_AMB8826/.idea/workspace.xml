@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2f3de46-a3f8-4dca-ac80-441c11001139" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/datarate_tests_AMB8826_receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_receiver_AMB8826/datarate_tests_AMB8826_receiver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/datarate_tests_AMB8826_sender.py" afterDir="false" />
-    </list>
+    <list default="true" id="d2f3de46-a3f8-4dca-ac80-441c11001139" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,9 +181,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="345" />
+    <option name="y" value="-13" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
