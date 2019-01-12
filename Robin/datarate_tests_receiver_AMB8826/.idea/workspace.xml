@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91aa8511-b04d-4cef-bb1a-a153d28ee192" name="Default Changelist" comment="" />
+    <list default="true" id="91aa8511-b04d-4cef-bb1a-a153d28ee192" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/interruption_and_datarate_test_receiver_AMB8826.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_receiver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+            <state relative-caret-position="374">
+              <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <marker date="1547243153122" expanded="true" signature="69:71" ph="..." />
@@ -80,11 +87,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1913" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,15 +175,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="280" y="95" width="1330" height="895" extended-state="1" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08851422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27223426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -197,8 +202,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/datarate_tests_AMB8826_receiver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        <state relative-caret-position="374">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1547243153122" expanded="true" signature="69:71" ph="..." />
