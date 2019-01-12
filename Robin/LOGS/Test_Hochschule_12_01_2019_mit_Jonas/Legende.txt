@@ -1,0 +1,23 @@
+AC tür unten - schiffe 3265
+AC tür unten - drucker 3265
+AC tür unten - aufzug 3282
+AC tür unten - fenster 3269
+AC tür unten - fenster kein sichtkontakt 0
+AC tür unten - fenster laptopbildschirm 2680
+AC tür unten - zwischen F und A Bau 0
+F Bau vorne - f bau hinten 2229
+F Bau vorne - f bau hinten 0
+F Bau vorne - f bau hinten 1769
+A Bau rechts oben - B Bau links oben 1 fenster zu 0
+A Bau rechts oben - B Bau links oben 1 fenster zu 0
+A Bau rechts oben - B Bau links oben 1 fenster zu 1548
+A Bau rechts oben - B Bau links oben 1 fenster zu 0
+A Bau rechts oben - B Bau links oben  3269
+A Bau rechts oben - B Bau links oben 1 fenster zu 0
+A Bau rechts oben - B Bau links oben 1 fenster zu 0
+A Bau rechts oben - B Bau links oben 1 fenster zu 0
+A Bau rechts oben - B Bau links oben 1467
+A Bau rechts oben - B Bau links oben 3273
+A Bau rechts oben - B Bau links oben 3277
+A Bau rechts oben - B Bau links oben ohne antenne 0
+A Bau rechts oben - B Bau links oben ohne antenne 0

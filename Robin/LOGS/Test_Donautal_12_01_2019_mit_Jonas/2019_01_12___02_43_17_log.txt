@@ -1,0 +1,13 @@
+Ort: Hagmann Umzüge c.a. 120m nach der Kreuzung - Ende Magirus Parkplatz / beide aud der straße   2019-01-12 02:43:17,827
+Sleep time: 0.080000  Duration: 1749  Data rate: 1463.693539  MB/s   2019-01-12 02:43:19,578
+Sleep time: 0.075000  Duration: 1647  Data rate: 1554.341226  MB/s   2019-01-12 02:43:21,227
+Sleep time: 0.070000  Duration: 1547  Data rate: 1654.815772  MB/s   2019-01-12 02:43:22,775
+Sleep time: 0.065000  Duration: 1446  Data rate: 1770.401107  MB/s   2019-01-12 02:43:24,223
+Sleep time: 0.060000  Duration: 1346  Data rate: 1901.931649  MB/s   2019-01-12 02:43:25,570
+Sleep time: 0.055000  Duration: 1249  Data rate: 2049.639712  MB/s   2019-01-12 02:43:26,821
+Sleep time: 0.050000  Duration: 1148  Data rate: 2229.965157  MB/s   2019-01-12 02:43:27,971
+Sleep time: 0.045000  Duration: 1047  Data rate: 2445.081184  MB/s   2019-01-12 02:43:29,017
+Sleep time: 0.040000  Duration: 954  Data rate: 2683.438155  MB/s   2019-01-12 02:43:29,972
+Sleep time: 0.035000  Duration: 853  Data rate: 3001.172333  MB/s   2019-01-12 02:43:30,828
+Sleep time: 0.030000  Duration: 777  Data rate: 3294.723295  MB/s   2019-01-12 02:43:31,606
+TIMEOUT Sleep time: 0.025000  Duration: 5693  Data rate: 449.675040  MB/s    2019-01-12 02:43:37,299

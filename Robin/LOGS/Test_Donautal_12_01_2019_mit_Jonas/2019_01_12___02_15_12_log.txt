@@ -1,0 +1,13 @@
+Ort: 20m hinter Krezung Donautal - Einfahrt Rathiopharm  / beide im Auto auf augenhöhe durch windschutzscheibe   2019-01-12 02:15:12,696
+Sleep time: 0.080000  Duration: 1744  Data rate: 1467.889908  MB/s   2019-01-12 02:15:14,443
+Sleep time: 0.075000  Duration: 1651  Data rate: 1550.575409  MB/s   2019-01-12 02:15:16,096
+Sleep time: 0.070000  Duration: 1536  Data rate: 1666.666667  MB/s   2019-01-12 02:15:17,633
+Sleep time: 0.065000  Duration: 1445  Data rate: 1771.626298  MB/s   2019-01-12 02:15:19,078
+Sleep time: 0.060000  Duration: 1351  Data rate: 1894.892672  MB/s   2019-01-12 02:15:20,431
+Sleep time: 0.055000  Duration: 1249  Data rate: 2049.639712  MB/s   2019-01-12 02:15:21,682
+Sleep time: 0.050000  Duration: 1146  Data rate: 2233.856894  MB/s   2019-01-12 02:15:22,829
+Sleep time: 0.045000  Duration: 1050  Data rate: 2438.095238  MB/s   2019-01-12 02:15:23,880
+Sleep time: 0.040000  Duration: 950  Data rate: 2694.736842  MB/s   2019-01-12 02:15:24,831
+Sleep time: 0.035000  Duration: 857  Data rate: 2987.164527  MB/s   2019-01-12 02:15:25,690
+Sleep time: 0.030000  Duration: 782  Data rate: 3273.657289  MB/s   2019-01-12 02:15:26,473
+TIMEOUT Sleep time: 0.025000  Duration: 5859  Data rate: 436.934630  MB/s    2019-01-12 02:15:32,334

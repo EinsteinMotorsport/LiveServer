@@ -1,0 +1,3 @@
+Ort:    2019-01-12 01:04:28,194
+Sleep time: 0.080000  Duration: 1744  Data rate: 1467.889908  MB/s   2019-01-12 01:04:29,939
+Sleep time: 0.075000  Duration: 1646  Data rate: 1555.285541  MB/s   2019-01-12 01:04:31,585

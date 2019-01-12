@@ -29,15 +29,15 @@ while True:  # is running the whole time and is not intended to stop
             while keep_waiting:  # is active for one measurement
                 error_counter = 0  # reset error counter every time a new measurement is started
                 temp_line = AMB8826.get_answer_address_mode_1(receiver)  # Just a temp line for appending
-                received.append(temp_line[len(temp_line) - 3])  # Appending to the received list
                 print(received)
+                received.append(temp_line[len(temp_line) - 3])  # Appending to the received list
                 if received[len(received)-1] == 254:  # This is the signal, that the sender noticed a timeout
                     print("Signal for timeout")
                     keep_waiting = False  # End the measurement
                     AMB8826.send_data(receiver, AMB8826.___cmd_data_req___from_hex("FF"))  # Wake up the sender
                     print("Receiver got the timeout and woke up sender")
                 elif len(received) == amount_of_messages:  # the whole measurement data was received (excluding timeout)
-                    for x in received:  # loop through the received message
+                    for x in range(len(received)):  # loop through the received message
                         if received[x] != x:  # check for errors
                             error_counter += error_counter
                     if error_counter == 0:  # if there were no errors

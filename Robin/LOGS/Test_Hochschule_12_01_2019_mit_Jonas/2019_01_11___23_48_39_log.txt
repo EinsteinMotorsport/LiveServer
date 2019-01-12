@@ -1,0 +1,12 @@
+Sleep time: 0.080000  Duration: 1746  Data rate: 1466.208477  MB/s   2019-01-11 23:48:41,638
+Sleep time: 0.075000  Duration: 1648  Data rate: 1553.398058  MB/s   2019-01-11 23:48:43,288
+Sleep time: 0.070000  Duration: 1545  Data rate: 1656.957929  MB/s   2019-01-11 23:48:44,835
+Sleep time: 0.065000  Duration: 1448  Data rate: 1767.955801  MB/s   2019-01-11 23:48:46,283
+Sleep time: 0.060000  Duration: 1349  Data rate: 1897.702001  MB/s   2019-01-11 23:48:47,633
+Sleep time: 0.055000  Duration: 1246  Data rate: 2054.574639  MB/s   2019-01-11 23:48:48,881
+Sleep time: 0.050000  Duration: 1147  Data rate: 2231.909329  MB/s   2019-01-11 23:48:50,029
+Sleep time: 0.045000  Duration: 1050  Data rate: 2438.095238  MB/s   2019-01-11 23:48:51,083
+Sleep time: 0.040000  Duration: 950  Data rate: 2694.736842  MB/s   2019-01-11 23:48:52,034
+Sleep time: 0.035000  Duration: 858  Data rate: 2983.682984  MB/s   2019-01-11 23:48:52,894
+Sleep time: 0.030000  Duration: 783  Data rate: 3269.476373  MB/s   2019-01-11 23:48:53,678
+TIMEOUT Sleep time: 0.025000  Duration: 5737  Data rate: 446.226251  MB/s    2019-01-11 23:48:59,415

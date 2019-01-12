@@ -1,0 +1,1 @@
+TIMEOUT Sleep time: 0.080000  Duration: 6757  Data rate: 378.866361  MB/s    2019-01-12 00:05:14,387

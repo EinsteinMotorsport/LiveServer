@@ -1,0 +1,2 @@
+Ort: Hagmann Umzüge c.a. 120m nach der Kreuzung - Gardena/Parkplatz nach Magirus / beide aud der straße   2019-01-12 02:46:15,566
+TIMEOUT Sleep time: 0.080000  Duration: 6756  Data rate: 378.922439  MB/s    2019-01-12 02:46:22,323

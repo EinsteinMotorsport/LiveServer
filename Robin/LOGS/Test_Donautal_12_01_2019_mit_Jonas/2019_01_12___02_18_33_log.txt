@@ -1,0 +1,2 @@
+Ort: 20m hinter Krezung Donautal - Swiss Life Graf...Str. 15  / beide im Auto auf augenhöhe durch windschutzscheibe   2019-01-12 02:18:33,044
+TIMEOUT Sleep time: 0.080000  Duration: 6794  Data rate: 376.803062  MB/s    2019-01-12 02:18:39,840

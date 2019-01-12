@@ -1,0 +1,5 @@
+Ort: Hagmann Umzüge c.a. 120m nach der Kreuzung - magirus Parkplatz einfahrt (GPS c.a. 350m) / beide aud der straße   2019-01-12 02:38:57,543
+Sleep time: 0.100000  Duration: 2146  Data rate: 1192.917055  MB/s   2019-01-12 02:38:59,690
+Sleep time: 0.095000  Duration: 2047  Data rate: 1250.610650  MB/s   2019-01-12 02:39:01,738
+Sleep time: 0.090000  Duration: 1943  Data rate: 1317.550180  MB/s   2019-01-12 02:39:03,683
+TIMEOUT Sleep time: 0.085000  Duration: 6853  Data rate: 373.559025  MB/s    2019-01-12 02:39:10,537
