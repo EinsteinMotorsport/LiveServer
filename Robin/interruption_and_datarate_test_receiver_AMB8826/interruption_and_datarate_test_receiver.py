@@ -19,8 +19,17 @@ if receiver.isOpen():
 # ###################### USER CODE BEGIN ######################
 
 received = []
+get_new_time = True
 while True:
+    if get_new_time:
+        start_time = int(round(time.time() * 1000))
+        get_new_time = False
+        print("Got new Time, start time: ", start_time)
+        # got a one second tick here
     line = AMB8826.get_answer_address_mode_1(receiver)
+    end_time = int(round(time.time() * 1000))
+    if end_time - start_time > 1000:
+        get_new_time = True
     offset = 3
     buffer = 0
     for x in range(len(line)-6-122):
