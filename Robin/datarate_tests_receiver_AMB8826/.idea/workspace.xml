@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/interruption_and_datarate_test_receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/interruption_and_datarate_test_receiver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/interruption_and_datarate_test_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/interruption_and_datarate_test_sender.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +86,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2873" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -175,7 +174,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17948718" />

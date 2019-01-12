@@ -20,13 +20,17 @@ if receiver.isOpen():
 
 received = []
 get_new_time = True
+start_time = 0
+counter = 0
 while True:
     if get_new_time:
         start_time = int(round(time.time() * 1000))
         get_new_time = False
-        print("Got new Time, start time: ", start_time)
-        # got a one second tick here
+        data_rate = counter * 124
+        print("Data rate with 124 bytes and a little more than one second is: ", data_rate)
+        counter = 0
     line = AMB8826.get_answer_address_mode_1(receiver)
+    counter += 1
     end_time = int(round(time.time() * 1000))
     if end_time - start_time > 1000:
         get_new_time = True
