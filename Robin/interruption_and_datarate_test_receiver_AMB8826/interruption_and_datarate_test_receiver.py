@@ -27,7 +27,8 @@ while True:
         start_time = int(round(time.time() * 1000))
         get_new_time = False
         data_rate = counter * 124
-        print("Data rate with 124 bytes and a little more than one second is: ", data_rate)
+        print("Data rate with 124 bytes and a little more than one second is: ", data_rate
+              , "  ", int(round(time.time() * 1000)))
         counter = 0
     line = AMB8826.get_answer_address_mode_1(receiver)
     counter += 1
@@ -40,7 +41,7 @@ while True:
         buffer = buffer + line[len(line) - offset] * pow(16, (offset - 3)*2)
         offset += 1
     received.append(buffer)
-    print(buffer)
+    print(buffer, "  ", int(round(time.time() * 1000)))
 
 # ###################### USER CODE END ######################
 

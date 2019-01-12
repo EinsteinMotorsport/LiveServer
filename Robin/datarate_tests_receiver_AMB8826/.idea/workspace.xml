@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91aa8511-b04d-4cef-bb1a-a153d28ee192" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../datarate_tests_sender_AMB8826/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/interruption_and_datarate_test_receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_receiver_AMB8826/interruption_and_datarate_test_receiver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/interruption_and_datarate_test_sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/../interruption_and_datarate_test_sender_AMB8826/interruption_and_datarate_test_sender.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

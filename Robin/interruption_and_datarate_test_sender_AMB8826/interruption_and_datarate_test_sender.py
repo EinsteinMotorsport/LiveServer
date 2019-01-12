@@ -22,6 +22,7 @@ message_filler = "00112233445566778899001122334455667788990011223344556677889900
                  "11223344556677889900112233445566778899001122334455667788990011223344556677889900" \
                  "11"  # 122 bytes  # Setup for later
 counter = 0
+
 while True:
     appendix = '{0:02X}'.format(counter)
     if len(appendix) % 2 != 0:
@@ -30,7 +31,7 @@ while True:
     AMB8826.send_data(sender, AMB8826.___cmd_data_req___from_hex(message))
     counter += 1
     time.sleep(0.04)  # with 0.04 sending 25 messages per second
-    print(counter)
+    print(counter, "  ", int(round(time.time() * 1000)))
 
 # ###################### USER CODE END ######################
 
