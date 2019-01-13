@@ -30,7 +30,7 @@ if sender.isOpen():
 
 now = datetime.datetime.now()  # get the current time for the logging
 filename = now.strftime("%Y_%m_%d___%H_%M_%S") + "_log.txt"  # create the filename of the new logfile
-logging.basicConfig(filename=filename , level=logging.DEBUG, format='%(message)s   %(asctime)s')  # config logfile
+logging.basicConfig(filename= filename, level=logging.DEBUG, format='%(message)s   %(asctime)s')  # config logfile
 amount_of_messages = 20  # Setup for later
 continue_test = True  # Setup for later
 start_indication = "FF"  # Setup for later
