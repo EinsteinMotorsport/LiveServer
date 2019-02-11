@@ -9,7 +9,7 @@ from random import randint, random  # Random generator
 #import Data
 
 
-byte=[b'40',b'22,',b'22,22',b'10',b'10',b'50,55,49']
+byte=['40','22','22','22','10','10','50','55','49','52','10','15','80']
 byt2=[b'0,5,,7,0',b'1,122,erwer',b'2,22,22',b'100']
 #Config
 port = 7777 #Websocket Port
@@ -34,43 +34,40 @@ class WSHandler(tornado.websocket.WebSocketHandler):
     def send_values(self):
 		#Generates random values to send via websocket
         print('send data')
-        #x=randint(1,70)
-        #s=str(x)
+
         #liste = []
         #liste.append(s)
-        bigList=[]
-        Leinheit=[]
+        bigInfo={}
         listwert = []
-        Id =0
-
-        bigInfo = {}
-        list = self.InputData(byte)
-
+        Id = 0
+        list = byte
+        print (list)
         for i in list:
 
-            listwert.append(i)
-            if Id == 0:
-                einheit = "Km/h²"
-            elif Id == 1:
-                einheit = "Km/h"
-            elif Id == 2:
-                einheit = "Bar"
-            elif Id == 3:
-                einheit = "Gang"
-            elif Id == 4:
-                einheit = "Thaco"
-            elif Id == 5:
-                einheit = "°C"
-            else:
-                einheit = ""
+            #del listwert[:]
+            #listwert.append(i)
+            # if Id == 0:
+            #     einheit = "Km/h²"
+            # elif Id == 1:
+            #     einheit = "Km/h"
+            # elif Id == 2:
+            #     einheit = "Bar"
+            # elif Id == 3:
+            #     einheit = "Gang"
+            # elif Id == 4:
+            #     einheit = "Thaco"
+            # elif Id == 5:
+            #     einheit = "°C"
+            # else:
+            #     einheit = ""
 
-            info = {0: listwert[Id], 1: einheit}
-            bigInfo[Id] = info
-            ToSendInfo = json.dumps(bigInfo)
-            Id += 1
+            info = {0:'0', 1:i}
+           # bigInfo[Id] = info
+            ToSendInfo = json.dumps(info)
+            # Id += 1
 
-        print(ToSendInfo)
-        self.write_message(ToSendInfo)
+            print(ToSendInfo)
+            self.write_message(ToSendInfo)
         #tosend=Data.Datensatz(byt2)
         # for i in x:
         #     for j in i:
@@ -101,3 +98,4 @@ application = tornado.web.Application([
 http_server = tornado.httpserver.HTTPServer(application)
 http_server.listen(port)
 tornado.ioloop.IOLoop.instance().start()
+
